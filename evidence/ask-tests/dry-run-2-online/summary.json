@@ -1,0 +1,56 @@
+[
+  {
+    "id": "test1-direct",
+    "question": "What is Giverny Capital's Rule of Three?",
+    "retrieval_check": {
+      "rochon-2002-giverny-letter": 1
+    },
+    "cited_sources": [
+      "rochon-2002-giverny-letter"
+    ],
+    "run_at": "2026-09-29T13:22:43",
+    "network": "online (internet reachable)",
+    "status": "answered",
+    "seconds": 10.19
+  },
+  {
+    "id": "test2-paraphrased",
+    "question": "Does taking on riskier investments guarantee a bigger payoff, according to Howard Marks?",
+    "retrieval_check": {
+      "marks-2006-risk-memo": 1
+    },
+    "cited_sources": [
+      "marks-2006-risk-memo"
+    ],
+    "run_at": "2026-09-29T13:22:51",
+    "network": "online (internet reachable)",
+    "status": "insufficient",
+    "seconds": 7.65
+  },
+  {
+    "id": "test3-two-sources",
+    "question": "How do Warren Buffett and Howard Marks each define investment risk, and do they agree that volatility is the right measure?",
+    "retrieval_check": {
+      "buffett-1993-letter": 1,
+      "marks-2006-risk-memo": 2
+    },
+    "cited_sources": [
+      "buffett-1993-letter",
+      "marks-2006-risk-memo"
+    ],
+    "run_at": "2026-09-29T13:23:03",
+    "network": "online (internet reachable)",
+    "status": "answered",
+    "seconds": 11.4
+  },
+  {
+    "id": "test4-unanswerable",
+    "question": "What annual management fee does Giverny Capital charge its partners?",
+    "retrieval_check": {},
+    "cited_sources": [],
+    "run_at": "2026-09-29T13:23:09",
+    "network": "online (internet reachable)",
+    "status": "insufficient",
+    "seconds": 5.61
+  }
+]

@@ -1,0 +1,26 @@
+# Harness settings. Environment variables override: WIKI_MODEL, WIKI_EMBED_MODEL, OLLAMA_HOST.
+
+[model]
+chat_model = "gemma4:e2b-it-qat"        # Gemma 4 E2B, instruction-tuned, quantization-aware-trained 4-bit
+embed_model = "nomic-embed-text"         # local embedding model served by Ollama
+ollama_host = "http://localhost:11434"
+keep_alive = "10m"                       # keep Gemma loaded between turns
+use_mmap = true                          # memory-map weights: process uses ~1.2 GB instead of ~5.1 GB on this 8 GB Mac (README §2)
+
+[generation]
+ask_temperature = 0.1
+chat_temperature = 0.6
+ingest_temperature = 0.2
+ask_num_ctx = 4096                       # 6 passages x ~220 words + rules ≈ 1,700 tokens
+chat_num_ctx = 4096
+ingest_num_ctx = 4096                    # was 8192; lowered after a macOS watchdog panic on this 8 GB Mac (README §2). One context size = no model reloads between modes
+
+[retrieval]
+chunk_max_words = 220                    # passage size; one note section is usually 1-2 passages
+top_k = 6                                # passages sent to Gemma in ask mode (was 5; raised after eval dry run 2, test 3)
+chat_top_k = 4
+rrf_k = 60                               # reciprocal-rank-fusion constant for BM25 + embeddings
+chat_retrieval_min_bm25 = 4.0            # chat looks up notes when the best keyword match is at least this strong
+
+[chat]
+history_messages = 10                    # recent user/assistant messages kept as conversation context

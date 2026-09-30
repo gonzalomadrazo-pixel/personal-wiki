@@ -1,0 +1,57 @@
+{
+  "mode": "ingest",
+  "execution": "local",
+  "saved_at": "2026-09-28T15:44:37",
+  "started": "2026-09-28T15:43:49",
+  "model": "gemma4:e2b-it-qat",
+  "target": "vault/raw/rochon-2002-giverny-letter.md",
+  "sources": [
+    {
+      "source_id": "rochon-2002-giverny-letter",
+      "status": "extracted",
+      "stats": {
+        "wall_seconds": 45.97,
+        "load_seconds": 0.06,
+        "prompt_tokens": 2399,
+        "prompt_seconds": 7.7,
+        "output_tokens": 601,
+        "output_seconds": 25.5,
+        "tokens_per_second": 23.6,
+        "followups": 2
+      },
+      "flagged": 3,
+      "concepts": [
+        "Owner Earnings",
+        "Patience and Long Holding Periods",
+        "Learning From Mistakes",
+        "Mental Models",
+        "Market Cycles",
+        "Rule of Three"
+      ]
+    }
+  ],
+  "pages_written": 9,
+  "pages_removed": [],
+  "seconds": 46.1,
+  "index": {
+    "passages": 97,
+    "source_passages": 69,
+    "wiki_passages": 28,
+    "embedded": 97,
+    "newly_embedded": 17
+  },
+  "memory": [
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37,
+      "context": 2048
+    },
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66,
+      "context": 8192
+    }
+  ]
+}

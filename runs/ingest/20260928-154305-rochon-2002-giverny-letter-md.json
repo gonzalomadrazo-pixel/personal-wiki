@@ -1,0 +1,54 @@
+{
+  "mode": "ingest",
+  "execution": "local",
+  "saved_at": "2026-09-28T15:43:05",
+  "started": "2026-09-28T15:41:18",
+  "model": "gemma4:e2b-it-qat",
+  "target": "vault/raw/rochon-2002-giverny-letter.md",
+  "sources": [
+    {
+      "source_id": "rochon-2002-giverny-letter",
+      "status": "extracted",
+      "stats": {
+        "wall_seconds": 51.99,
+        "load_seconds": 12.75,
+        "prompt_tokens": 2275,
+        "prompt_seconds": 12.07,
+        "output_tokens": 648,
+        "output_seconds": 26.59,
+        "tokens_per_second": 24.4
+      },
+      "flagged": 3,
+      "concepts": [
+        "Owner Earnings",
+        "Patience and Long Holding Periods",
+        "Learning From Mistakes",
+        "Mental Models"
+      ]
+    }
+  ],
+  "pages_written": 7,
+  "pages_removed": [],
+  "seconds": 52.0,
+  "index": {
+    "passages": 88,
+    "source_passages": 69,
+    "wiki_passages": 19,
+    "embedded": 88,
+    "newly_embedded": 19
+  },
+  "memory": [
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37,
+      "context": 2048
+    },
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66,
+      "context": 8192
+    }
+  ]
+}

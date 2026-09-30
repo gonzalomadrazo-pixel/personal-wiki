@@ -1,0 +1,57 @@
+{
+  "summary": "This study note presents Warren Buffett's arguments against using volatility as the primary measure of investment risk, advocating instead for a focus on the long-term economics of businesses. Buffett emphasizes the importance of concentration in high-quality businesses and defines real risk based on the certainty of evaluating a business's fundamentals and management's behavior.",
+  "key_points": [
+    {
+      "point": "It is generally unwise to sell a business that is both understandable and durably wonderful because such businesses are difficult to replace.",
+      "section": "Holding wonderful businesses"
+    },
+    {
+      "point": "Concentration can reduce risk if it forces an investor to think more deeply about a business and demand greater comfort with its economics before buying.",
+      "section": "Concentration instead of diversification"
+    },
+    {
+      "point": "Academics define risk using beta, which focuses only on past prices, whereas Buffett argues that it is better to be approximately right than precisely wrong.",
+      "section": "Why beta and volatility are the wrong measure of risk"
+    },
+    {
+      "point": "True investors should welcome volatility because wild price swings allow solid businesses to sell at irrationally low prices.",
+      "section": "Why beta and volatility are the wrong measure of risk"
+    },
+    {
+      "point": "Real investment risk is determined by whether the investor's total after-tax receipts will maintain or exceed their initial purchasing power plus modest interest.",
+      "section": "Buffett's definition of real investment risk"
+    },
+    {
+      "point": "A 'know-something' investor who can find a few sensibly priced companies with durable competitive advantages should not diversify conventionally.",
+      "section": "Knowing what you can't know; when diversification makes sense"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Risk vs Volatility",
+      "what_the_source_says": "Buffett argues that defining risk as volatility (beta) is wrong because it ignores the underlying business fundamentals, suggesting it is better to be approximately right than precisely wrong."
+    },
+    {
+      "name": "Diversification vs Concentration",
+      "what_the_source_says": "Buffett and Munger prefer concentration because it can reduce risk if it compels the investor to analyze a business thoroughly, rather than making many small, uncertain decisions."
+    },
+    {
+      "name": "Mr Market",
+      "what_the_source_says": "Buffett suggests that investors should welcome wild price swings because they mean solid businesses can sometimes sell at irrationally low prices, and an investor should ignore or exploit the market rather than be harmed by it."
+    },
+    {
+      "name": "Competitive Moats",
+      "what_the_source_says": "Companies like Coke and Gillette possess protective moats through their brands, products, and distribution, which provide long-term business risk protection, even if their betas look like ordinary companies."
+    },
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Buffett and Munger focus on sticking to easy cases because they cannot reliably distinguish between a fad and a durable franchise, which is a limitation of knowing what one cannot know."
+    }
+  ],
+  "source_id": "buffett-1993-letter",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:46:01",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 0
+}

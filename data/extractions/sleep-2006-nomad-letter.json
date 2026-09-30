@@ -1,0 +1,57 @@
+{
+  "summary": "This note details Nick Sleep's 2006 annual letter from Nomad Investment Partnership, arguing that patience in holding good businesses and understanding the long-term value of scale economies are key to investment success. Sleep critiques market benchmarks and discusses how structuring fees can align the interests of managers and investors.",
+  "key_points": [
+    {
+      "point": "Sleep says the index is not Nomad's benchmark, and treating an index as a risk-free home leads to errors like ignoring one's circle of competence and over-diversifying.",
+      "section": "Results and the index"
+    },
+    {
+      "point": "In stocks, business outcomes can be more predictable over several years than quarterly results, meaning time can both increase and reduce risk.",
+      "section": "The equity yield curve: patience has value"
+    },
+    {
+      "point": "The model of scale economies shared suggests that lowering prices through efficiency and scale creates a cycle of increased free cash flow for the business.",
+      "section": "Scale economies shared: Amazon and Costco"
+    },
+    {
+      "point": "Nomad focused on holding stocks for long periods, finding that the longest-held holdings achieved the highest annualized returns.",
+      "section": "The equity yield curve: patience has value"
+    },
+    {
+      "point": "Fees can be structured to align incentives by capping management fees and using a performance fee structure that shares risk with the partners.",
+      "section": "Fees designed to align incentives"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Scale Economies Shared",
+      "what_the_source_says": "Sleep identifies this model, exemplified by Amazon and Costco, where passing efficiency and scale savings back to customers creates a virtuous cycle of more free cash flow."
+    },
+    {
+      "name": "Patience and Long Holding Periods",
+      "what_the_source_says": "Sleep argues that holding good businesses for many years can raise and de-risk returns because business outcomes can be more predictable over several years than short-term results."
+    },
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Sleep says treating an index as a risk-free home makes managers feel they must have an opinion on everything in it, regardless of their circle of competence."
+    },
+    {
+      "name": "Aligned Incentives",
+      "what_the_source_says": "The firm structured its fees so that the management fee falls as the fund grows, and the performance fee structure ensures partners share risk by refunding them in years below the hurdle."
+    },
+    {
+      "name": "Diversification vs Concentration",
+      "what_the_source_says": "Sleep lists over-diversification among the capital-destroying mistakes of index-relative investing; Nomad's top five holdings were about half of the portfolio."
+    },
+    {
+      "name": "Competitive Moats",
+      "what_the_source_says": "An earlier Nomad appendix proposed measuring a moat's strength by how a firm splits scale benefits between customers, employees and shareholders (the 'robustness ratio'), using GEICO as the example."
+    }
+  ],
+  "source_id": "sleep-2006-nomad-letter",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:50:55",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 4
+}

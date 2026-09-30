@@ -1,0 +1,69 @@
+{
+  "summary": "This study note covers the investing parts of Charlie Munger's 2016 Daily Journal Q&A. Munger stresses using multiple mental models, patience followed by decisive action, paying attention to opportunity cost, and staying inside one's circle of competence, and he describes rationality as avoiding anger, envy and self-pity.",
+  "key_points": [
+    {
+      "point": "As Daily Journal's newspaper profits shrank, it used foreclosure-boom cash to buy stocks during the panic and moved into court software, which Munger describes as a slow, venture-capital-like bet.",
+      "section": "Daily Journal's business shift"
+    },
+    {
+      "point": "Successful investing involves a strategy of making a few major decisions, exercising patience, and then taking aggressive action when the right opportunity arises.",
+      "section": "Few big decisions, patience, then aggression"
+    },
+    {
+      "point": "Valuation is not a fixed formula but a process of weighing many factors, and different businesses deserve different valuations based on their specific characteristics.",
+      "section": "Opportunity cost and valuation"
+    },
+    {
+      "point": "Employing multiple mental models allows for thinking about many aspects simultaneously, which is necessary for navigating the complexity of investing.",
+      "section": "Multiple mental models and synthesis"
+    },
+    {
+      "point": "Rationality in investing is primarily achieved by avoiding negative emotional states such as anger, envy, and self-pity.",
+      "section": "Rationality and avoiding self-destruction"
+    },
+    {
+      "point": "Investors should focus on judging management and industries based on deep insight, recognizing that certain sectors like banking require specific knowledge.",
+      "section": "Judging management and industries"
+    },
+    {
+      "point": "Excessive easy money can lead to poor behavior, and investors must maintain a focus on fundamental value investing to succeed.",
+      "section": "Incentives and finance culture"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mental Models",
+      "what_the_source_says": "Munger advocates for using multiple mental models to think about many things at once, stating that investing is never easy and that specialization alone can lead to mistakes elsewhere."
+    },
+    {
+      "name": "Opportunity Cost",
+      "what_the_source_says": "The note stresses that both the government-bond rate and one's own opportunity cost are relevant to discount rates, and that investors must consider their next-best alternative when making decisions."
+    },
+    {
+      "name": "Patience and Long Holding Periods",
+      "what_the_source_says": "Munger describes making money by waiting, emphasizing that patience should be followed by aggressive action when a chance arises, as successful long-term outcomes often result from a few significant transactions over time."
+    },
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Munger suggests avoiding topics outside one's circle of competence, noting that predicting winners in new tech areas is outside his scope, and that big long-term bets become less straightforward as one's firm grows."
+    },
+    {
+      "name": "Competitive Moats",
+      "what_the_source_says": "Munger says a software business that becomes entrenched can be very 'sticky', while autos are brutally competitive and commoditised, so an investor there would need a clearly superior competitor."
+    },
+    {
+      "name": "Price and Value",
+      "what_the_source_says": "Munger says fundamental value investing will never go out of style because success requires buying things for less than they are worth; Bank of America was bought after it fell far below its value."
+    },
+    {
+      "name": "Aligned Incentives",
+      "what_the_source_says": "Charlie Munger argues that large amounts of easy money lead to regrettable behavior, which he termed 'Munger's rule,' citing examples like venture rounds quietly subordinating earlier investors."
+    }
+  ],
+  "source_id": "munger-2016-daily-journal",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:50:20",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 5
+}

@@ -1,0 +1,156 @@
+{
+  "id": "test3-two-sources",
+  "kind": "connects two sources",
+  "question": "How do Warren Buffett and Howard Marks each define investment risk, and do they agree that volatility is the right measure?",
+  "mode": "ask",
+  "execution": "local",
+  "network": "offline (no internet connection)",
+  "run_at": "2026-09-29T21:26:22",
+  "model": {
+    "name": "gemma4:e2b-it-qat",
+    "family": "gemma4",
+    "parameter_size": "4.6B",
+    "quantization": "Q4_0",
+    "format": "gguf",
+    "digest": "07ea59a47401",
+    "runtime": "Ollama 0.34.4"
+  },
+  "embedding_model": {
+    "name": "nomic-embed-text",
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization": "F16",
+    "format": "gguf",
+    "digest": "0a109f422b47",
+    "runtime": "Ollama 0.34.4"
+  },
+  "expected_behavior": "Buffett: risk is the possibility of loss or injury, and not keeping purchasing power plus modest interest over the holding period; beta and volatility are the wrong measure. Marks: risk is first of all the likelihood of losing money; volatility was chosen for convenience. Both reject volatility. Cites both sources.",
+  "expected_sources": [
+    "buffett-1993-letter",
+    "marks-2006-risk-memo"
+  ],
+  "expected_evidence": "raw/buffett-1993-letter.md › 'Concentration instead of diversification', 'Why beta and volatility are the wrong measure of risk' and 'Buffett's definition of real investment risk' (PDF pp. 405-406); raw/marks-2006-risk-memo.md › 'Why volatility is not risk' and 'What risk really is' (PDF pp. 336-338).",
+  "retrieval_check": {
+    "buffett-1993-letter": 1,
+    "marks-2006-risk-memo": 2
+  },
+  "retrieved": [
+    {
+      "id": "buffett-1993-letter#3",
+      "source_id": "buffett-1993-letter",
+      "kind": "source",
+      "path": "raw/buffett-1993-letter.md",
+      "title": "Buffett 1993 Letter",
+      "section": "Why beta and volatility are the wrong measure of risk",
+      "pages": "PDF pp. 405-406",
+      "text": "- Academics define risk as a stock's volatility relative to the market (beta), calculated precisely from past prices. Buffett says this forgets that it is better to be approximately right than precisely wrong.\n- For business owners this definition is absurd. Under beta theory, the Washington Post stock became \"riskier\" after it fell sharply in 1973. But the lower price made it a better deal, not a riskier one.\n- True investors welcome volatility (Graham's Mr. Market again). Wild price swings mean solid businesses sometimes sell at irrationally low prices, and an investor free to ignore or exploit the market is not harmed by that.\n- A beta purist studies only price history and ignores what the company makes, its competitors and its debt. Buffett prefers the opposite and would not mind if markets closed for a year or two after he bought.",
+      "score": 0.0328,
+      "bm25": 12.591,
+      "cosine": 0.788
+    },
+    {
+      "id": "marks-2006-risk-memo#2",
+      "source_id": "marks-2006-risk-memo",
+      "kind": "source",
+      "path": "raw/marks-2006-risk-memo.md",
+      "title": "Marks 2006 Risk Memo",
+      "section": "Why volatility is not risk",
+      "pages": "PDF pp. 336-337",
+      "text": "- Academics chose volatility as the measure of risk mostly for convenience. It is objective, historical and easy to put in a formula.\n- Marks has never met an investor who refused a deal because the price might fluctuate or have a down quarter. So volatility is probably not what the market prices.\n- Practical flaws: a stock drifting from 50 to 80 and one falling from 50 to 20 can show the same volatility. A stock that rose smoothly to 80 and then dropped to 50 is called riskier at 50 than it was at 80. And historic volatility assumes the future will look like the past.",
+      "score": 0.0323,
+      "bm25": 9.576,
+      "cosine": 0.772
+    },
+    {
+      "id": "marks-2006-risk-memo#5",
+      "source_id": "marks-2006-risk-memo",
+      "kind": "source",
+      "path": "raw/marks-2006-risk-memo.md",
+      "title": "Marks 2006 Risk Memo",
+      "section": "Risk depends on the investor",
+      "pages": "PDF p. 341",
+      "text": "- Is concentration risky? Only for someone who cannot see the future clearly. Diversification is a trade of return for safety, made because our knowledge is imperfect.\n- Is illiquidity risky? Buffett and Munger hold huge, hard-to-sell positions and whole companies without trouble, because they know what they are doing and won't face forced selling.\n- Are distressed-debt funds risky? The holdings are messy, but the funds buy very cheaply, have skilled teams and a strong record. The answer depends on how you define risk. No single number captures risk, and few assets are risky or safe in themselves.",
+      "score": 0.0308,
+      "bm25": 7.238,
+      "cosine": 0.714
+    },
+    {
+      "id": "buffett-1993-letter#4",
+      "source_id": "buffett-1993-letter",
+      "kind": "source",
+      "path": "raw/buffett-1993-letter.md",
+      "title": "Buffett 1993 Letter",
+      "section": "Buffett's definition of real investment risk",
+      "pages": "PDF p. 406",
+      "text": "- The real risk: whether the investor's total after-tax receipts over the holding period (including the sale proceeds) will give at least the purchasing power they started with, plus modest interest.\n- Five factors bear on that risk:\n  1. how certainly the business's long-term economics can be evaluated;\n  2. how certainly management can be evaluated, both on realising the business's potential and on using cash flows wisely;\n  3. how certainly management will pass the rewards to shareholders rather than to itself;\n  4. the purchase price;\n  5. the taxes and inflation that will reduce the investor's real return.\n- These factors are fuzzy and cannot be pulled from a database, but they can often be judged well enough to be useful.",
+      "score": 0.03,
+      "bm25": 4.516,
+      "cosine": 0.764
+    },
+    {
+      "id": "buffett-1993-letter#6",
+      "source_id": "buffett-1993-letter",
+      "kind": "source",
+      "path": "raw/buffett-1993-letter.md",
+      "title": "Buffett 1993 Letter",
+      "section": "Knowing what you can't know; when diversification makes sense",
+      "pages": "PDF pp. 407-409",
+      "text": "- In many industries Buffett and Munger cannot tell a fad from a durable franchise, especially fast-changing technology businesses. They stick to easy cases.\n- Wide diversification is right in two situations:\n  - Strategies like arbitrage, where each bet carries real risk. Make many independent bets whose probability-weighted gains exceed their losses, like a casino that wants lots of small bets but refuses one huge bet.\n  - An investor who does not understand business economics. They should buy a broad index fund in regular instalments, which will beat most professionals. When \"know-nothing\" money admits its limits, it stops being dumb.\n- A \"know-something\" investor who can find five to ten sensibly priced companies with durable competitive advantages should not diversify conventionally. Putting money into a 20th-favourite idea instead of the best ones only lowers returns and raises risk.",
+      "score": 0.0292,
+      "bm25": 4.553,
+      "cosine": 0.712
+    },
+    {
+      "id": "marks-2006-risk-memo#3",
+      "source_id": "marks-2006-risk-memo",
+      "kind": "source",
+      "path": "raw/marks-2006-risk-memo.md",
+      "title": "Marks 2006 Risk Memo",
+      "section": "What risk really is",
+      "pages": "PDF pp. 337-338",
+      "text": "- Risk is, first and foremost, the likelihood of losing money (permanent loss of capital) or of an unacceptably low return.\n- Other risks are personal rather than built into the investment, so the market does not price them:\n  - **falling short of a goal** — the same return can be fine for one investor and a shortfall for another;\n  - **underperformance / benchmark risk** — anyone who deviates from an index will sometimes lag it badly (Buffett in 1999 is his example);\n  - **career risk** — agents may avoid bets that could get them fired even if the bets are good for the client;\n  - **unconventionality** — Keynes observed it is better for reputation to fail conventionally than succeed unconventionally;\n  - **illiquidity** — being unable to turn an investment into cash when you need it.",
+      "score": 0.029,
+      "bm25": 6.298,
+      "cosine": 0.707
+    }
+  ],
+  "answer": "Warren Buffett defines real investment risk as whether the investor's total after-tax receipts over the holding period will yield at least the original purchasing power plus modest interest [S4]. This risk is determined by five factors, including the certainty of evaluating the business's long-term economics, management's ability to realize potential and use cash flows wisely, management's tendency to pass rewards to shareholders, the purchase price, and taxes and inflation [S4].\n\nHoward Marks defines risk as the likelihood of losing money permanently or achieving an unacceptably low return [S6]. He notes that other risks, such as falling short of a goal, underperformance relative to a benchmark, career risk, and unconventionality, are personal rather than built into the investment and are not priced by the market [S6].\n\nNeither passage explicitly states whether Buffett and Marks agree that volatility is the right measure of risk. Buffett suggests that academics defining risk as a stock's volatility relative to the market (beta) is incorrect because it ignores factors like the company's performance [S1]. Marks argues that volatility is not what the market prices and points out practical flaws, such as how different price movements can show the same volatility [S2].",
+  "citation_check": {
+    "status": "answered",
+    "cited": [
+      1,
+      2,
+      4,
+      6
+    ],
+    "invalid": [],
+    "uncited_sentences": [
+      "Neither passage explicitly states whether Buffett and Marks agree that volatility is the right measure of risk."
+    ]
+  },
+  "cited_sources": [
+    "buffett-1993-letter",
+    "marks-2006-risk-memo"
+  ],
+  "stats": {
+    "wall_seconds": 15.64,
+    "load_seconds": 0.13,
+    "prompt_tokens": 1641,
+    "prompt_seconds": 5.78,
+    "output_tokens": 250,
+    "output_seconds": 8.41,
+    "tokens_per_second": 29.7
+  },
+  "memory": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 3.59,
+      "gpu_gb": 3.59
+    },
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37
+    }
+  ]
+}

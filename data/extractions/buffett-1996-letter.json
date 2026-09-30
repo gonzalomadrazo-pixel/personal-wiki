@@ -1,0 +1,61 @@
+{
+  "summary": "This study note summarizes Warren Buffett's 1996 letter, focusing on investment principles such as inactivity, selecting businesses within one's circle of competence, and avoiding past mistakes. Buffett advises investors to focus on businesses with strong, unlikely-to-change competitive advantages and to stick to a disciplined approach.",
+  "key_points": [
+    {
+      "point": "Managers should not trade wonderful subsidiaries based on external opinions or rate forecasts, suggesting that monitoring the qualities of a business is sufficient.",
+      "section": "Inactivity as intelligent behaviour"
+    },
+    {
+      "point": "Berkshire's strategy involves buying public stocks like subsidiaries, focusing on businesses with excellent economics and honest management at a sensible price.",
+      "section": "Inactivity as intelligent behaviour"
+    },
+    {
+      "point": "Buffett favors businesses and industries that are unlikely to undergo major changes, prioritizing certainty over potential huge wins in fast-changing sectors.",
+      "section": "Preferring businesses unlikely to change"
+    },
+    {
+      "point": "Companies like Coca-Cola and Gillette are considered 'The Inevitables' because honest observers believe they will lead their fields for a lifetime.",
+      "section": "The Inevitables and the Highly Probables"
+    },
+    {
+      "point": "Intelligent investing requires correctly evaluating selected businesses that fall within one's circle of competence, emphasizing that knowing the boundary of that circle is crucial.",
+      "section": "Advice for individual investors; circle of competence"
+    },
+    {
+      "point": "Investors should buy a meaningful amount of a good business when found at a rational price, expecting its earnings to be materially higher over the long term.",
+      "section": "Advice for individual investors; circle of competence"
+    },
+    {
+      "point": "If you would not own a stock for ten years, don't own it for ten minutes; a portfolio whose combined earnings rise over the years will see its market value rise too.",
+      "section": "Advice for individual investors; circle of competence"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Buffett states that intelligent investing requires correctly evaluating selected businesses that are inside one's circle of competence, and knowing where that boundary lies is very important."
+    },
+    {
+      "name": "Patience and Long Holding Periods",
+      "what_the_source_says": "Buffett advises investors to stick to a rule: if one would not own a stock for ten years, they should not own it for ten minutes."
+    },
+    {
+      "name": "Owner Earnings",
+      "what_the_source_says": "Buffett says a portfolio of companies whose aggregate earnings rise over the years will see its market value rise too, which is how Berkshire's look-through earnings and share price grew together."
+    },
+    {
+      "name": "Competitive Moats",
+      "what_the_source_says": "Buffett calls Coca-Cola and Gillette 'The Inevitables', companies almost certain to dominate their fields worldwide for an investment lifetime, and warns that most apparent leaders are 'Impostors' vulnerable to competitive attack."
+    },
+    {
+      "name": "Learning From Mistakes",
+      "what_the_source_says": "Buffett calls his 1989 USAir preferred-stock investment a mistake: he trusted the airline's long profit history and missed that deregulated competition had changed its economics, showing a track record can mislead."
+    }
+  ],
+  "source_id": "buffett-1996-letter",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:46:55",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 4
+}

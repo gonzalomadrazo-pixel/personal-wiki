@@ -1,0 +1,251 @@
+# Curated vocabulary for the wiki.
+#
+# Gemma picks which of these concepts each source discusses and writes what the
+# source says about them. It cannot invent new page names, which keeps filenames
+# short, readable and duplicate-free across re-ingestion. The "related" reasons
+# are human-written, so every concept-to-concept link explains why it exists.
+
+[groups]
+order = ["Risk", "Psychology and Cycles", "Business Quality and Value", "Process and Temperament"]
+
+# ---------------------------------------------------------------- Risk
+[[concept]]
+name = "Risk vs Volatility"
+group = "Risk"
+aliases = ["risk", "volatility", "beta", "permanent loss", "risk definition", "what is risk"]
+description = "Whether investment risk means price volatility (beta) or the chance of permanent loss."
+related = [
+  ["Mr Market", "volatile quotes are Mr. Market's moods, which an investor can exploit rather than fear"],
+  ["Margin of Safety", "buying well below value is the practical defence against permanent loss"],
+  ["Diversification vs Concentration", "whether concentration is risky depends on how risk is defined"],
+]
+
+[[concept]]
+name = "Margin of Safety"
+group = "Risk"
+aliases = ["margin of safety", "defensive investing", "invest scared", "downside protection"]
+description = "Paying a price low enough that the investment still works if things go wrong."
+related = [
+  ["Price and Value", "the margin is the gap between price paid and estimated value"],
+  ["Leverage", "borrowing shrinks or removes the margin of safety"],
+]
+
+[[concept]]
+name = "Leverage"
+group = "Risk"
+aliases = ["leverage", "borrowed money", "debt"]
+description = "Using borrowed money to magnify returns, and the fragility it creates."
+related = [
+  ["Credit Cycle", "easy credit is what makes excessive leverage available"],
+  ["Margin of Safety", "leverage eats into the cushion that protects against loss"],
+]
+
+[[concept]]
+name = "Diversification vs Concentration"
+group = "Risk"
+aliases = ["diversification", "concentration", "concentrated portfolio", "index fund", "focus"]
+description = "How many positions to hold, and when owning few or many makes sense."
+related = [
+  ["Circle of Competence", "concentration only makes sense inside what you understand"],
+  ["Risk vs Volatility", "the argument turns on what counts as risk"],
+]
+
+# ------------------------------------------------ Psychology and Cycles
+[[concept]]
+name = "Mr Market"
+group = "Psychology and Cycles"
+aliases = ["mr market", "mr. market", "market moods", "voting machine", "weighing machine"]
+description = "Graham's allegory of an emotional market partner whose prices serve you but should not guide you."
+related = [
+  ["Market Cycles", "the pendulum of market psychology is Mr. Market's mood swings over time"],
+  ["Contrarian Investing", "exploiting Mr. Market means buying when he is depressed"],
+]
+
+[[concept]]
+name = "Market Cycles"
+group = "Psychology and Cycles"
+aliases = ["cycles", "pendulum", "bull market", "bear market", "bubble", "this time is different"]
+description = "The recurring, self-correcting swings of economies, companies and investor psychology."
+related = [
+  ["Credit Cycle", "credit availability is one of the strongest drivers of the wider cycle"],
+  ["Limits of Forecasting", "cycles can't be timed, but you can know roughly where you are"],
+]
+
+[[concept]]
+name = "Credit Cycle"
+group = "Psychology and Cycles"
+aliases = ["credit cycle", "lending", "easy money", "capital markets", "worst loans"]
+description = "How lending standards loosen in good times and tighten in bad, amplifying booms and busts."
+related = [
+  ["Market Cycles", "the credit cycle feeds the economic and market cycles"],
+  ["Leverage", "loose credit invites overborrowing"],
+]
+
+[[concept]]
+name = "Contrarian Investing"
+group = "Psychology and Cycles"
+aliases = ["contrarian", "out of favor", "unpopular assets", "going against the crowd"]
+description = "Buying what others are avoiding, because only unpopular assets can be truly cheap."
+related = [
+  ["Mr Market", "the crowd's mood sets the prices a contrarian exploits"],
+  ["Price and Value", "being contrarian pays only when price is below value"],
+]
+
+[[concept]]
+name = "Limits of Forecasting"
+group = "Psychology and Cycles"
+aliases = ["forecasting", "predictions", "macro", "economists", "i don't know school"]
+description = "Why macro and market forecasts rarely add value, and how to invest without them."
+related = [
+  ["Market Cycles", "preparing for cycles replaces predicting them"],
+  ["Margin of Safety", "if you can't predict, build in protection instead"],
+]
+
+# ------------------------------------------ Business Quality and Value
+[[concept]]
+name = "Price and Value"
+group = "Business Quality and Value"
+aliases = ["intrinsic value", "price", "valuation", "value investing", "good company vs good investment"]
+description = "The relationship between what you pay and what a business is worth."
+related = [
+  ["Margin of Safety", "a wide gap between price and value is the margin of safety"],
+  ["Owner Earnings", "value comes from the earnings a business produces for its owners"],
+]
+
+[[concept]]
+name = "Competitive Moats"
+group = "Business Quality and Value"
+aliases = ["moat", "competitive advantage", "franchise", "the inevitables", "durable business"]
+description = "Durable advantages that protect a business's returns from competitors."
+related = [
+  ["Scale Economies Shared", "sharing scale savings with customers is one way a moat widens"],
+  ["Circle of Competence", "you can only judge a moat in a business you understand"],
+]
+
+[[concept]]
+name = "Scale Economies Shared"
+group = "Business Quality and Value"
+aliases = ["scale economies shared", "costco", "amazon", "robustness ratio", "lower prices"]
+description = "Nomad's model: businesses that pass scale savings back to customers to grow a stronger moat."
+related = [
+  ["Competitive Moats", "the model is a mechanism for building a durable advantage"],
+  ["Patience and Long Holding Periods", "its payoff shows up only over many years"],
+]
+
+[[concept]]
+name = "Owner Earnings"
+group = "Business Quality and Value"
+aliases = ["owner earnings", "look-through earnings", "owner's earnings", "earning power"]
+description = "Judging investments by the underlying earnings of the businesses owned rather than by stock quotes."
+related = [
+  ["Price and Value", "earnings power is the basis of value"],
+  ["Mr Market", "business results, not quotes, tell you whether an investment is working"],
+]
+
+[[concept]]
+name = "Capital Allocation"
+group = "Business Quality and Value"
+aliases = ["capital allocation", "reinvestment", "management quality", "ceo"]
+description = "How managers deploy the cash a business generates, and why it matters to owners."
+related = [
+  ["Owner Earnings", "good allocation turns retained earnings into higher future earnings"],
+  ["Aligned Incentives", "managers allocate better when their interests match owners'"],
+]
+
+# --------------------------------------------- Process and Temperament
+[[concept]]
+name = "Circle of Competence"
+group = "Process and Temperament"
+aliases = ["circle of competence", "what you understand", "know your limits", "easy cases"]
+description = "Investing only in what you can genuinely understand, and knowing where that boundary lies."
+related = [
+  ["Diversification vs Concentration", "competence is what justifies concentration"],
+  ["Mental Models", "broad models widen understanding, but the boundary still matters"],
+]
+
+[[concept]]
+name = "Patience and Long Holding Periods"
+group = "Process and Temperament"
+aliases = ["patience", "long term", "holding period", "equity yield curve", "inactivity", "waiting"]
+description = "Why waiting, and holding good businesses for years, is a source of return."
+related = [
+  ["Rule of Three", "accepting bad years in advance makes patience easier"],
+  ["Opportunity Cost", "patience means waiting for opportunities that beat the alternatives"],
+]
+
+[[concept]]
+name = "Rule of Three"
+group = "Process and Temperament"
+aliases = ["rule of three", "one year out of three", "underperformance", "bad years"]
+description = "Giverny's empirical rule about how often markets fall, stocks disappoint and a portfolio lags."
+related = [
+  ["Learning From Mistakes", "the rule treats disappointing stocks as a normal cost of investing"],
+  ["Patience and Long Holding Periods", "lagging years are survivable if you stay the course"],
+]
+
+[[concept]]
+name = "Learning From Mistakes"
+group = "Process and Temperament"
+aliases = ["mistakes", "mistake du jour", "postmortem", "errors", "usair"]
+description = "Reviewing past decisions honestly, including sales and missed purchases."
+related = [
+  ["Circle of Competence", "many mistakes come from straying outside what you understand"],
+  ["Rule of Three", "some mistakes are expected and should be planned for"],
+]
+
+[[concept]]
+name = "Mental Models"
+group = "Process and Temperament"
+aliases = ["mental models", "latticework", "multidisciplinary", "synthesis", "rationality"]
+description = "Thinking with many models from different disciplines instead of one formula."
+related = [
+  ["Opportunity Cost", "opportunity cost is one of the most useful single models"],
+  ["Circle of Competence", "models help, but only within what you actually know"],
+]
+
+[[concept]]
+name = "Opportunity Cost"
+group = "Process and Temperament"
+aliases = ["opportunity cost", "next best alternative", "discount rate", "hurdle"]
+description = "Judging every investment against your best available alternative."
+related = [
+  ["Price and Value", "value depends on what else the money could earn"],
+  ["Diversification vs Concentration", "money belongs in top ideas, not the 20th best"],
+]
+
+[[concept]]
+name = "Aligned Incentives"
+group = "Process and Temperament"
+aliases = ["incentives", "fees", "performance fee", "principal agent", "skin in the game", "career risk"]
+description = "Structuring fees, ownership and pay so managers and investors win or lose together."
+related = [
+  ["Capital Allocation", "incentives shape how managers use capital"],
+  ["Patience and Long Holding Periods", "fees can be timed to match long holding periods"],
+]
+
+# ---------------------------------------------------------------- People
+# Short, human-written descriptions; generated text never invents biography.
+[[person]]
+name = "Warren Buffett"
+aliases = ["buffett", "berkshire"]
+description = "Chairman of Berkshire Hathaway; his annual shareholder letters are three of the sources."
+
+[[person]]
+name = "Howard Marks"
+aliases = ["howard marks", "oaktree"]
+description = "Co-founder of Oaktree Capital; his client memos are three of the sources."
+
+[[person]]
+name = "Charlie Munger"
+aliases = ["munger", "daily journal"]
+description = "Berkshire vice chairman and Daily Journal chairman; one meeting transcript is a source."
+
+[[person]]
+name = "Nick Sleep"
+aliases = ["nick sleep", "nomad", "zakaria"]
+description = "Co-manager of the Nomad Investment Partnership (with Qais Zakaria); one annual letter is a source."
+
+[[person]]
+name = "Francois Rochon"
+aliases = ["rochon", "françois rochon", "giverny"]
+description = "Founder of Giverny Capital in Montreal; one annual letter is a source."

@@ -1,0 +1,53 @@
+{
+  "summary": "This memo by Howard Marks focuses on redefining risk, arguing that volatility is not the same as risk and that true risk involves the likelihood of permanent loss or unacceptably low returns. Marks emphasizes that risk is subjective and depends on the investor, stressing the need for risk intelligence rather than just risk avoidance.",
+  "key_points": [
+    {
+      "point": "Capital-market theory suggests that riskier investments must offer higher expected returns to attract capital, and returns should be judged relative to the risk taken.",
+      "section": "Why risk matters, and the misread risk-return line"
+    },
+    {
+      "point": "Volatility is not the same as risk because it is a measure chosen for convenience, and it fails to capture how risk changes depending on the current price level.",
+      "section": "Why volatility is not risk"
+    },
+    {
+      "point": "True risk is fundamentally the chance of losing money permanently or achieving an unacceptably low return, distinct from personal risks like underperformance or illiquidity.",
+      "section": "What risk really is"
+    },
+    {
+      "point": "Risk assessment is highly subjective, especially when looking forward, and historical data cannot definitively measure the likelihood of specific events.",
+      "section": "Measuring risk before and after the fact"
+    },
+    {
+      "point": "Diversification is a trade made for safety due to imperfect knowledge, and illiquidity can be acceptable if the investor understands the position.",
+      "section": "Risk depends on the investor"
+    },
+    {
+      "point": "Risk control should be about risk intelligence—understanding and managing the risks taken and being paid for them—rather than complete risk avoidance.",
+      "section": "Bearing risk intelligently for profit"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Risk vs Volatility",
+      "what_the_source_says": "Marks argues that volatility is not risk because it is a measure chosen for convenience, and it does not accurately reflect how risk changes based on the current price level."
+    },
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Marks argues that whether concentration or illiquidity is risky depends on the investor's knowledge: Buffett and Munger can hold concentrated, illiquid positions because they know what they are doing."
+    },
+    {
+      "name": "Diversification vs Concentration",
+      "what_the_source_says": "Marks says diversification trades return for safety because knowledge of the future is imperfect; concentration is risky for investors who can't see the future clearly, but not for those who can."
+    },
+    {
+      "name": "Price and Value",
+      "what_the_source_says": "Marks says risky assets can be good investments if they are cheap enough, and the skill lies in knowing when that is the case."
+    }
+  ],
+  "source_id": "marks-2006-risk-memo",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:49:21",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 4
+}

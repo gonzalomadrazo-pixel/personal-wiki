@@ -1,0 +1,57 @@
+{
+  "summary": "This study note summarizes Warren Buffett's 1987 letter, focusing on his investment philosophy regarding business value, market sentiment, and capital allocation. Buffett argues that investors should focus on the underlying business earnings rather than market prices, treating the market as an emotional partner while maintaining a circle of competence.",
+  "key_points": [
+    {
+      "point": "The focus should be on growth in per-share business value rather than book value, as the two are not always related.",
+      "section": "Business value vs. book value"
+    },
+    {
+      "point": "Investors should evaluate stocks as if they were private businesses, holding them as long as intrinsic value continues to grow.",
+      "section": "Buying stocks as if buying a private business"
+    },
+    {
+      "point": "Mr. Market is an emotional partner whose prices the investor may use or ignore, but whose opinions should never guide the investor's judgment of value.",
+      "section": "Mr. Market as a business partner"
+    },
+    {
+      "point": "Buffett sells when the market overvalues a business or when capital is needed for better opportunities.",
+      "section": "When to sell, and the three permanent holdings"
+    },
+    {
+      "point": "Owning controlled companies allows for capital allocation advantages and tax benefits, and CEOs often lack skill in this area.",
+      "section": "Controlled companies vs. marketable stocks; capital allocation"
+    },
+    {
+      "point": "Buffett criticizes portfolio insurance and suggests that volatility is beneficial for real investors unless it forces them to sell.",
+      "section": "Other securities, portfolio insurance and the 1987 crash"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Mr Market",
+      "what_the_source_says": "Buffett retells Graham's allegory of Mr. Market, an emotional partner whose quotes swing between euphoria and depression; the investor is free to ignore him or take advantage of him, but must never fall under his influence."
+    },
+    {
+      "name": "Price and Value",
+      "what_the_source_says": "Buffett stresses that what matters is growth in per-share business value, not book value, and he prefers a wonderful business at a sensible price over a mediocre business at a bargain price."
+    },
+    {
+      "name": "Capital Allocation",
+      "what_the_source_says": "Buffett notes that many CEOs rise through marketing, production or administration and are not skilled at capital allocation, yet a CEO whose company retains 10% of net worth a year will have deployed more than 60% of its capital after ten years."
+    },
+    {
+      "name": "Owner Earnings",
+      "what_the_source_says": "Buffett judges holdings by their operating results rather than by daily or yearly stock quotes, focusing on the underlying earnings of the businesses."
+    },
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Buffett limits Berkshire's choices to investment alternatives it understands, and says that anyone who cannot value their business better than Mr. Market does not belong in the game."
+    }
+  ],
+  "source_id": "buffett-1987-letter",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:45:24",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 4
+}

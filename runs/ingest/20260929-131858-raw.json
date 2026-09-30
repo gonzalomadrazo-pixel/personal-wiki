@@ -1,0 +1,64 @@
+{
+  "mode": "ingest",
+  "execution": "local",
+  "saved_at": "2026-09-29T13:18:58",
+  "started": "2026-09-29T13:18:54",
+  "model": "gemma4:e2b-it-qat",
+  "target": "vault/raw",
+  "sources": [
+    {
+      "source_id": "buffett-1987-letter",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "buffett-1993-letter",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "buffett-1996-letter",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "marks-2001-cycles-memo",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "marks-2003-most-important-thing",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "marks-2006-risk-memo",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "munger-2016-daily-journal",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "rochon-2002-giverny-letter",
+      "status": "unchanged, reused saved extraction"
+    },
+    {
+      "source_id": "sleep-2006-nomad-letter",
+      "status": "unchanged, reused saved extraction"
+    }
+  ],
+  "pages_written": 36,
+  "pages_removed": [],
+  "seconds": 0.0,
+  "index": {
+    "passages": 222,
+    "source_passages": 69,
+    "wiki_passages": 153,
+    "embedded": 222,
+    "newly_embedded": 138
+  },
+  "memory": [
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37,
+      "context": 2048
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+# Ask-mode test set, written BEFORE running retrieval or Gemma.
+# Kept outside vault/ so the retrieval index can never find this answer key.
+
+[[test]]
+id = "test1-direct"
+kind = "direct question answered by one source"
+question = "What is Giverny Capital's Rule of Three?"
+expected_behavior = "Lists the three parts of the rule, cites the Giverny 2002 letter, and ideally notes that the rule is empirical and meant to help investors stay rational."
+expected_sources = ["rochon-2002-giverny-letter"]
+expected_evidence = "raw/rochon-2002-giverny-letter.md › 'The Rule of Three' (PDF p. 15): one year in three the market falls more than 10%; one stock in three disappoints; one year in three the portfolio lags the indexes."
+
+[[test]]
+id = "test2-paraphrased"
+kind = "answerable, phrased differently from the source"
+question = "Does taking on riskier investments guarantee a bigger payoff, according to Howard Marks?"
+expected_behavior = "Says no: riskier assets must offer higher expected or promised returns to attract capital, but those returns aren't guaranteed, and the range of outcomes (including loss) widens as risk rises. Cites the Marks 2006 risk memo."
+expected_sources = ["marks-2006-risk-memo"]
+expected_evidence = "raw/marks-2006-risk-memo.md › 'Why risk matters, and the misread risk-return line' (PDF pp. 334-336). The source says 'higher returns', 'expected' and 'promised'; the question says 'guarantee' and 'bigger payoff'."
+
+[[test]]
+id = "test3-two-sources"
+kind = "connects two sources"
+question = "How do Warren Buffett and Howard Marks each define investment risk, and do they agree that volatility is the right measure?"
+expected_behavior = "Buffett: risk is the possibility of loss or injury, and not keeping purchasing power plus modest interest over the holding period; beta and volatility are the wrong measure. Marks: risk is first of all the likelihood of losing money; volatility was chosen for convenience. Both reject volatility. Cites both sources."
+expected_sources = ["buffett-1993-letter", "marks-2006-risk-memo"]
+expected_evidence = "raw/buffett-1993-letter.md › 'Concentration instead of diversification', 'Why beta and volatility are the wrong measure of risk' and 'Buffett's definition of real investment risk' (PDF pp. 405-406); raw/marks-2006-risk-memo.md › 'Why volatility is not risk' and 'What risk really is' (PDF pp. 336-338)."
+
+[[test]]
+id = "test4-unanswerable"
+kind = "plausible question the wiki cannot answer"
+question = "What annual management fee does Giverny Capital charge its partners?"
+expected_behavior = "INSUFFICIENT EVIDENCE. The Giverny note never mentions fees. Retrieval will probably return the Nomad letter's fee passages (a trap); the answer must not attribute Nomad's fees to Giverny."
+expected_sources = []
+expected_evidence = "None. Only raw/sleep-2006-nomad-letter.md › 'Fees designed to align incentives' discusses fees, and it is about Nomad, not Giverny."

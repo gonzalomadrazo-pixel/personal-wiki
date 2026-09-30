@@ -1,0 +1,19 @@
+# Python / uv
+.venv/
+__pycache__/
+*.pyc
+
+# Rebuildable machine files (run `./wiki index` to regenerate)
+data/index/
+
+# Chat drafts saved with /save (personal, not evidence)
+drafts/
+
+# Obsidian per-device state (graph.json is kept so the graph filter is documented)
+vault/.obsidian/*
+!vault/.obsidian/graph.json
+.DS_Store
+
+# Never commit model weights or credentials
+*.gguf
+.env

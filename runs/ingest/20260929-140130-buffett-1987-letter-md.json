@@ -1,0 +1,42 @@
+{
+  "mode": "ingest",
+  "execution": "local",
+  "saved_at": "2026-09-29T14:01:30",
+  "started": "2026-09-29T14:00:48",
+  "model": "gemma4:e2b-it-qat",
+  "target": "vault/raw/buffett-1987-letter.md",
+  "sources": [
+    {
+      "source_id": "buffett-1987-letter",
+      "status": "re-extracted candidate (reviewed kept)",
+      "stats": {
+        "wall_seconds": 41.64,
+        "load_seconds": 9.07,
+        "prompt_tokens": 2237,
+        "prompt_seconds": 6.12,
+        "output_tokens": 746,
+        "output_seconds": 26.01,
+        "tokens_per_second": 28.7
+      },
+      "flagged": 2
+    }
+  ],
+  "pages_written": 36,
+  "pages_removed": [],
+  "seconds": 41.7,
+  "index": {
+    "passages": 179,
+    "source_passages": 60,
+    "wiki_passages": 119,
+    "embedded": 179,
+    "newly_embedded": 0
+  },
+  "memory": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66,
+      "context": 4096
+    }
+  ]
+}

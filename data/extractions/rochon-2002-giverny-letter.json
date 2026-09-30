@@ -1,0 +1,65 @@
+{
+  "summary": "This study note summarizes François Rochon's 2002 annual letter to Giverny Capital clients, focusing on market realities, investment philosophy, and the importance of long-term perspective. Rochon emphasizes accepting market volatility and focusing on underlying business fundamentals rather than short-term stock prices.",
+  "key_points": [
+    {
+      "point": "Rochon's Rule of Three: one year in three the market falls more than 10%, one stock in three disappoints, and one year in three the portfolio lags the indexes; accepting this in advance helps investors stay rational.",
+      "section": "The Rule of Three"
+    },
+    {
+      "point": "Investors should maintain a long-term perspective, as great companies require decades to grow, and patience is crucial for achieving returns.",
+      "section": "The gardener and the investor"
+    },
+    {
+      "point": "Giverny measures performance by the growth in company earnings and long-term prospects rather than fluctuating stock prices.",
+      "section": "Owner's earnings as the scorecard"
+    },
+    {
+      "point": "Reviewing past decisions, including sales that failed, is necessary for learning and adapting investment strategies.",
+      "section": "Looking back: sales that went wrong, and things change"
+    },
+    {
+      "point": "Echoing Munger's advice to use many mental models, Rochon compares investing to tending Monet's garden at Giverny.",
+      "section": "The gardener and the investor"
+    },
+    {
+      "point": "The value of waiting for the right investment opportunity is analogous to Ted Williams waiting for the right pitch, suggesting patience in valuation.",
+      "section": "Ted Williams and waiting for your pitch"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Owner Earnings",
+      "what_the_source_says": "Giverny measures itself by the growth in its companies' earnings and long-term prospects, not by short-term stock prices, following Buffett's look-through earnings idea."
+    },
+    {
+      "name": "Patience and Long Holding Periods",
+      "what_the_source_says": "Great companies, like trees, take decades to grow, and time and patience matter most when investing."
+    },
+    {
+      "name": "Learning From Mistakes",
+      "what_the_source_says": "Following J&J's habit of reviewing past acquisitions, Rochon looks back at his own decisions to learn from them."
+    },
+    {
+      "name": "Mental Models",
+      "what_the_source_says": "Echoing Munger's advice to use many mental models, Rochon compares investing to gardening: know your soil and climate, tend the garden continuously, and don't pull the flowers to water the weeds."
+    },
+    {
+      "name": "Market Cycles",
+      "what_the_source_says": "François Rochon notes that the 2000-2002 market decline was mainly caused by shrinking P/E ratios, particularly among the largest companies."
+    },
+    {
+      "name": "Rule of Three",
+      "what_the_source_says": "François Rochon's Rule of Three outlines three market realities to accept in advance: a stock market fall exceeding 10% in one out of three years, one stock out of three that is disappointing, and the portfolio underperforming indexes in one out of three years. He describes this rule as an observed, not scientific, principle whose value is psychological, helping one act rationally during bad years and stock mistakes."
+    },
+    {
+      "name": "Circle of Competence",
+      "what_the_source_says": "Like Ted Williams swinging only at pitches in his best zones, Rochon waits for companies he can value and ignores sectors such as oil and gold regardless of price."
+    }
+  ],
+  "source_id": "rochon-2002-giverny-letter",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:44:35",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 4
+}

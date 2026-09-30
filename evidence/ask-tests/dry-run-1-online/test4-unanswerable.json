@@ -1,0 +1,127 @@
+{
+  "id": "test4-unanswerable",
+  "kind": "plausible question the wiki cannot answer",
+  "question": "What annual management fee does Giverny Capital charge its partners?",
+  "mode": "ask",
+  "execution": "local",
+  "network": "online (internet reachable)",
+  "run_at": "2026-09-29T13:21:51",
+  "model": {
+    "name": "gemma4:e2b-it-qat",
+    "family": "gemma4",
+    "parameter_size": "4.6B",
+    "quantization": "Q4_0",
+    "format": "gguf",
+    "digest": "07ea59a47401",
+    "runtime": "Ollama 0.34.4"
+  },
+  "embedding_model": {
+    "name": "nomic-embed-text",
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization": "F16",
+    "format": "gguf",
+    "digest": "",
+    "runtime": "Ollama 0.34.4"
+  },
+  "expected_behavior": "INSUFFICIENT EVIDENCE. The Giverny note never mentions fees. Retrieval will probably return the Nomad letter's fee passages (a trap); the answer must not attribute Nomad's fees to Giverny.",
+  "expected_sources": [],
+  "expected_evidence": "None. Only raw/sleep-2006-nomad-letter.md › 'Fees designed to align incentives' discusses fees, and it is about Nomad, not Giverny.",
+  "retrieval_check": {},
+  "retrieved": [
+    {
+      "id": "rochon-2002-giverny-letter#1",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "Overview",
+      "pages": "",
+      "text": "These are my notes on François Rochon's letter to Giverny Capital's clients (whom he calls partners) for 2002, the third year of the 2000-2002 bear market.",
+      "score": 0.0325,
+      "bm25": 11.599,
+      "cosine": 0.682
+    },
+    {
+      "id": "sleep-2006-nomad-letter#7",
+      "source_id": "sleep-2006-nomad-letter",
+      "kind": "source",
+      "path": "raw/sleep-2006-nomad-letter.md",
+      "title": "Nomad 2006 Annual Letter",
+      "section": "Fees designed to align incentives",
+      "pages": "PDF pp. 110-114",
+      "text": "- They will run only one fund and structured the firm so it cannot be sold to another manager.\n- **Management fee**: a reimbursement of actual running costs, capped at 1% of assets and not meant to be a profit centre. As the fund grows, the fee falls as a percentage, so partners share in scale economies.\n- **Performance fee**: 20% of gains above a 6% annual hurdle, paid into a reserve (the \"Contingent Performance Reserve\") instead of straight to the managers. The reserve refunds partners in years below the hurdle. The managers receive 20% of the running balance each year, so fees stay at risk for about five years, matching the holding period. They credit Orbis for the idea.\n- They also gave themselves power to return cash to partners if the opportunity set shrinks, keeping the fund's size in line with its opportunities.",
+      "score": 0.0318,
+      "bm25": 13.015,
+      "cosine": 0.65
+    },
+    {
+      "id": "rochon-2002-giverny-letter#2",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "Results in a bear market",
+      "pages": "PDF p. 14",
+      "text": "- In 2002 the Giverny portfolio returned -3%, versus -18% for its blended benchmark and -23% for the S&P 500 (all in Canadian dollars).\n- From September 1993 to the end of 2002 it compounded at about 20% a year, versus about 10% for the benchmark and 11% for the S&P 500. Rochon notes a weakening Canadian dollar added roughly 2.7 points a year.\n- The long-term goal is to beat the indexes by 5 percentage points a year. He warns it would be unrealistic to expect 20% a year to continue.\n- He attributes the 2000-2002 market decline mainly to shrinking P/E ratios, especially among the largest companies.\n- He invests his own money alongside clients. The number of partners grew from 8 in 1998 to more than 100 by the end of 2002.",
+      "score": 0.0317,
+      "bm25": 5.701,
+      "cosine": 0.661
+    },
+    {
+      "id": "rochon-2002-giverny-letter#7",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "Owner's earnings as the scorecard",
+      "pages": "PDF pp. 20-21",
+      "text": "- Giverny measures itself by the growth in its companies' earnings and long-term prospects, not by short-term stock prices. This follows Buffett's look-through earnings idea.\n- In 2002 the portfolio's stock prices were roughly flat, but its owner's earnings rose about 18-20%, with an ROE of about 18%. Over about five years, prices tend to reflect earnings growth.\n- Gaps between price and business progress (Bed Bath & Beyond's EPS +40% with the stock +3%) are opportunities.",
+      "score": 0.0308,
+      "bm25": 3.847,
+      "cosine": 0.678
+    },
+    {
+      "id": "rochon-2002-giverny-letter#8",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "Mistakes of the year: \"Mistake du jour\"",
+      "pages": "PDF pp. 21-23",
+      "text": "- **Bronze — Heartland Express:** a low-cost trucker with a founder-CEO owning 40%, a modest salary and no options. He sold in 1999 when growth paused; the stock tripled. The error was impatience.\n- **Silver — Expedia:** he recommended it at $10 but hesitated to buy for all accounts, and waited in vain for the price to fall back. It later traded around $65. His lesson: discipline is following your rules; wisdom is knowing when to break them.\n- **Gold — Richelieu Hardware:** a high-return, fast-growing distributor recommended by his partner Bernard Mooney. He waited years, bought too little and wouldn't pay a bit more. The stock rose about fivefold in five years — even though the lock on his own front door was made by Richelieu.",
+      "score": 0.0306,
+      "bm25": 4.692,
+      "cosine": 0.616
+    }
+  ],
+  "answer": "INSUFFICIENT EVIDENCE\nThe provided passages do not state the annual management fee charged by Giverny Capital's partners.",
+  "citation_check": {
+    "status": "insufficient",
+    "cited": [],
+    "invalid": [],
+    "uncited_sentences": []
+  },
+  "cited_sources": [],
+  "stats": {
+    "wall_seconds": 5.71,
+    "load_seconds": 0.06,
+    "prompt_tokens": 1321,
+    "prompt_seconds": 3.91,
+    "output_tokens": 27,
+    "output_seconds": 0.96,
+    "tokens_per_second": 28.1
+  },
+  "memory": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66
+    },
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "mode": "search",
+  "execution": "local",
+  "saved_at": "2026-09-29T21:28:39",
+  "query": "Mr. Market",
+  "include_wiki": false,
+  "retrieval": "hybrid BM25 + embeddings",
+  "seconds": 0.24,
+  "results": [
+    {
+      "id": "buffett-1987-letter#3",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "Mr. Market as a business partner",
+      "pages": "PDF pp. 230-231",
+      "text": "- He retells Ben Graham's allegory. Imagine market quotes coming from an emotional partner, Mr. Market, who offers every day to buy your share of a business or sell you his.\n- Mr. Market's mood swings between euphoria (very high prices) and depression (very low prices), even when the underlying business is stable.\n- You are free to ignore him; he will return tomorrow with a new price. The more erratic his moods, the better for the investor.\n- The key warning: Mr. Market is there to serve you, not to guide you. His prices are useful; his opinions are not. If you cannot value your business better than he can, you should not be playing.\n- Buffett says success comes from combining good business judgment with the ability to keep your thinking insulated from market emotion, not from formulas, computer models or price signals.\n- He judges holdings by their operating results, not by daily or yearly quotes. He repeats Graham's idea that in the short run the market is a voting machine and in the long run a weighing machine. Slow recognition by the market can even help, because it allows buying more at bargain prices.",
+      "score": 0.0328,
+      "bm25": 5.521,
+      "cosine": 0.711
+    },
+    {
+      "id": "buffett-1987-letter#6",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "Other securities, portfolio insurance and the 1987 crash",
+      "pages": "PDF pp. 235-237",
+      "text": "- Berkshire's insurance float can go into five categories: long-term stocks, medium-term bonds, long-term bonds, cash equivalents and arbitrage. It picks whichever offers the best after-tax \"mathematical expectation,\" but only among things it understands.\n- He blames 1987's volatility on big money managers who focused on what other managers would do next, rather than on the businesses.\n- He criticises \"portfolio insurance,\" which mechanically sells more as prices fall — like selling pieces of a farm whenever a neighbour's land sells cheaper.\n- His conclusion: volatile markets are good for real investors, small or large. Volatility can only hurt an investor who is forced, financially or psychologically, to sell at bad times.\n- Berkshire found little to buy in stocks in 1987 but expected Mr. Market to offer chances later.",
+      "score": 0.0313,
+      "bm25": 3.112,
+      "cosine": 0.566
+    },
+    {
+      "id": "marks-2003-most-important-thing#6",
+      "source_id": "marks-2003-most-important-thing",
+      "kind": "source",
+      "path": "raw/marks-2003-most-important-thing.md",
+      "title": "Marks 2003 Most Important Thing",
+      "section": "Market efficiency, leverage and luck",
+      "pages": "PDF pp. 233-235",
+      "text": "- Mainstream large-cap stock markets are fairly efficient, so active fees rarely earn their keep there. Inefficient markets — uneven information, few or non-objective investors, specialised expertise needed — allow real mispricings. In those markets low risk and high return can go together. Marks chose to work only in inefficient markets.\n- Be wary of leverage. It raises potential return but also raises risk and removes the margin of safety. It is acceptable to exploit unusually generous opportunities, but dangerous for squeezing big returns out of thin margins.\n- Much of short-term performance is out of anyone's control: competitors, the environment and luck. Something probable may not happen, and something that happened may have been improbable. Judging managers therefore can't be purely quantitative.",
+      "score": 0.0312,
+      "bm25": 1.695,
+      "cosine": 0.568
+    }
+  ]
+}

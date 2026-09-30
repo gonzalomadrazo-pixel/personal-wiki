@@ -1,0 +1,172 @@
+=== Offline demo 20260929-212444
+$ networksetup -getairportpower en0
+Wi-Fi Power (en0): Off
+$ curl -sS -m 5 https://www.google.com -o /dev/null
+curl: (6) Could not resolve host: www.google.com
+(no internet, as expected)
+
+$ ollama list   # weights are stored locally
+NAME                       ID              SIZE      MODIFIED   
+nomic-embed-text:latest    0a109f422b47    274 MB    5 days ago    
+gemma4:e2b-it-qat          07ea59a47401    4.3 GB    5 days ago    
+
+$ ./wiki status --check-network
+wiki 0.1.0 · mode: status · execution: local · model: gemma4:e2b-it-qat (Ollama @ localhost:11434)
+Ollama server:   running
+Model:           gemma4:e2b-it-qat  [gemma4, 4.6B, Q4_0, digest 07ea59a47401]  Ollama 0.34.4
+Model:           nomic-embed-text  [nomic-bert, 137M, F16, digest 0a109f422b47]  Ollama 0.34.4
+Loaded now:      nothing loaded
+Process memory:  no Ollama model process running  (macOS footprint)
+System memory:   System-wide memory free percentage: 38%
+Index:           {'passages': 179, 'source_passages': 60, 'wiki_passages': 119, 'embedded': 179, 'newly_embedded': 0}
+Raw sources:     9 notes in vault/raw/
+Network:         offline (no internet connection)
+
+$ ./wiki --help
+usage: wiki [-h] [--version] <command> ...
+
+Personal investing wiki — local Gemma + RAG harness.
+
+positional arguments:
+  <command>
+    ingest    read sources, generate linked wiki pages with Gemma, update
+              index.md and the search index
+    search    show matching original passages and paths (no generation)
+    ask       standalone cited answer from your sources, or INSUFFICIENT
+              EVIDENCE
+    chat      personal assistant with conversation memory and on-demand notes
+              lookup
+    index     rebuild only the retrieval index from vault/raw and vault/wiki
+    status    show model, runtime, memory use and index status
+    eval      run the ask-mode test questions and write evidence cards
+    help      show this help
+
+options:
+  -h, --help  show this help message and exit
+  --version   show program's version number and exit
+
+modes
+  search   retrieval only: shows original passages + file paths, never generates text (works without Gemma)
+  ask      standalone factual answer from retrieved evidence with [S#] citations, or INSUFFICIENT EVIDENCE;
+           ignores chat history and personality
+  chat     personal assistant (persona in prompts/persona.md) with conversation memory; looks up notes only
+           when a turn needs them
+
+inputs & configuration
+  vault/raw/*.md           original study notes (unchanged evidence). Put new sources here, then run ingest.
+  config/settings.toml     model names, context sizes, passage size, top-k (env: WIKI_MODEL, OLLAMA_HOST)
+  config/taxonomy.toml     allowed concept / investor page names and their human-written link reasons
+  prompts/*.md             persona.md (chat), wiki-instructions.md (ask), ingest-instructions.md (ingest)
+
+requirements
+  Ollama running locally with:  ollama pull gemma4:e2b-it-qat   and   ollama pull nomic-embed-text
+
+examples
+  wiki ingest vault/raw
+  wiki search "Mr. Market"
+  wiki ask "How does Howard Marks define risk?" --mode local
+  wiki chat
+  wiki status --check-network
+
+$ ./wiki ingest vault/raw/rochon-2002-giverny-letter.md --force   # re-run Gemma on one source
+wiki 0.1.0 · mode: ingest · execution: local · model: gemma4:e2b-it-qat (Ollama @ localhost:11434)
+Ingesting vault/raw/rochon-2002-giverny-letter.md …
+  … Giverny 2002 Annual Letter         sending 980 words to gemma4:e2b-it-qat
+  + Giverny 2002 Annual Letter         6 concepts, 6 key points, 4 statements to check · 48.17s, 620 tokens out
+    reviewed extraction kept for the wiki; new output saved as data/extractions/rochon-2002-giverny-letter.candidate.json for comparison
+Rendered 36 pages (wiki/Sources, wiki/Concepts, wiki/Investors, index.md); removed 0 stale generated pages.
+Rebuilding retrieval index …
+Index: 60 source passages + 119 wiki passages, 179 embedded (0 new).
+Saved ingest report → runs/ingest/20260929-212534-rochon-2002-giverny-letter-md.json  ·  total 48.3s
+Review flagged statements in data/reviews/*.md before trusting the wiki pages.
+
+$ ./wiki ingest vault/raw   # re-ingest all: must reuse extractions, no duplicate pages
+wiki 0.1.0 · mode: ingest · execution: local · model: gemma4:e2b-it-qat (Ollama @ localhost:11434)
+Ingesting vault/raw …
+  = Buffett 1987 Letter                reviewed extraction kept
+  = Buffett 1993 Letter                reviewed extraction kept
+  = Buffett 1996 Letter                reviewed extraction kept
+  = Marks 2001 Cycles Memo             reviewed extraction kept
+  = Marks 2003 Most Important Thing    reviewed extraction kept
+  = Marks 2006 Risk Memo               reviewed extraction kept
+  = Munger 2016 Daily Journal Meeting  reviewed extraction kept
+  = Giverny 2002 Annual Letter         reviewed extraction kept
+  = Nomad 2006 Annual Letter           reviewed extraction kept
+Rendered 36 pages (wiki/Sources, wiki/Concepts, wiki/Investors, index.md); removed 0 stale generated pages.
+Rebuilding retrieval index …
+Index: 60 source passages + 119 wiki passages, 179 embedded (0 new).
+Saved ingest report → runs/ingest/20260929-212535-raw.json  ·  total 0.0s
+Review flagged statements in data/reviews/*.md before trusting the wiki pages.
+
+$ find vault/wiki -name '*.md' | sort
+vault/wiki/Concepts/Aligned Incentives.md
+vault/wiki/Concepts/Capital Allocation.md
+vault/wiki/Concepts/Circle of Competence.md
+vault/wiki/Concepts/Competitive Moats.md
+vault/wiki/Concepts/Contrarian Investing.md
+vault/wiki/Concepts/Credit Cycle.md
+vault/wiki/Concepts/Diversification vs Concentration.md
+vault/wiki/Concepts/Learning From Mistakes.md
+vault/wiki/Concepts/Leverage.md
+vault/wiki/Concepts/Limits of Forecasting.md
+vault/wiki/Concepts/Margin of Safety.md
+vault/wiki/Concepts/Market Cycles.md
+vault/wiki/Concepts/Mental Models.md
+vault/wiki/Concepts/Mr Market.md
+vault/wiki/Concepts/Opportunity Cost.md
+vault/wiki/Concepts/Owner Earnings.md
+vault/wiki/Concepts/Patience and Long Holding Periods.md
+vault/wiki/Concepts/Price and Value.md
+vault/wiki/Concepts/Risk vs Volatility.md
+vault/wiki/Concepts/Rule of Three.md
+vault/wiki/Concepts/Scale Economies Shared.md
+vault/wiki/Investors/Charlie Munger.md
+vault/wiki/Investors/Francois Rochon.md
+vault/wiki/Investors/Howard Marks.md
+vault/wiki/Investors/Nick Sleep.md
+vault/wiki/Investors/Warren Buffett.md
+vault/wiki/Sources/Buffett 1987 Letter.md
+vault/wiki/Sources/Buffett 1993 Letter.md
+vault/wiki/Sources/Buffett 1996 Letter.md
+vault/wiki/Sources/Giverny 2002 Annual Letter.md
+vault/wiki/Sources/Marks 2001 Cycles Memo.md
+vault/wiki/Sources/Marks 2003 Most Important Thing.md
+vault/wiki/Sources/Marks 2006 Risk Memo.md
+vault/wiki/Sources/Munger 2016 Daily Journal Meeting.md
+vault/wiki/Sources/Nomad 2006 Annual Letter.md
+
+$ ./wiki eval   # the four ask-mode tests
+wiki 0.1.0 · mode: eval (ask-mode tests) · execution: local · model: gemma4:e2b-it-qat (Ollama @ localhost:11434)
+Network: offline (no internet connection)
+
+▶ test1-direct: What is Giverny Capital's Rule of Three?
+  retrieval: rochon-2002-giverny-letter → rank 1
+  answer status: answered · cited [1] · 9.78s
+
+▶ test2-paraphrased: Does taking on riskier investments guarantee a bigger payoff, according to Howard Marks?
+  retrieval: marks-2006-risk-memo → rank 1
+  answer status: answered · cited [1] · 9.8s
+
+▶ test3-two-sources: How do Warren Buffett and Howard Marks each define investment risk, and do they agree that volatility is the right measure?
+  retrieval: buffett-1993-letter → rank 1, marks-2006-risk-memo → rank 2
+  answer status: answered · cited [1, 2, 4, 6] · 15.64s
+
+▶ test4-unanswerable: What annual management fee does Giverny Capital charge its partners?
+  retrieval: n/a
+  answer status: insufficient · cited [] · 7.11s
+
+Evidence cards written to evidence/ask-tests/
+
+$ ./wiki status   # memory after the runs
+wiki 0.1.0 · mode: status · execution: local · model: gemma4:e2b-it-qat (Ollama @ localhost:11434)
+Ollama server:   running
+Model:           gemma4:e2b-it-qat  [gemma4, 4.6B, Q4_0, digest 07ea59a47401]  Ollama 0.34.4
+Model:           nomic-embed-text  [nomic-bert, 137M, F16, digest 0a109f422b47]  Ollama 0.34.4
+Loaded now:      gemma4:e2b-it-qat 3.59 GB (GPU 3.59 GB, ctx 4096), nomic-embed-text:latest 0.37 GB (GPU 0.37 GB, ctx 2048)
+Process memory:  llama-server 1349M  (macOS footprint)
+System memory:   System-wide memory free percentage: 6%
+Index:           {'passages': 179, 'source_passages': 60, 'wiki_passages': 119, 'embedded': 179, 'newly_embedded': 0}
+Raw sources:     9 notes in vault/raw/
+
+$ sysctl vm.swapusage
+vm.swapusage: total = 9216.00M  used = 8226.75M  free = 989.25M  (encrypted)

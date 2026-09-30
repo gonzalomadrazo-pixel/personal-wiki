@@ -1,0 +1,148 @@
+{
+  "id": "test1-direct",
+  "kind": "direct question answered by one source",
+  "question": "What is Giverny Capital's Rule of Three?",
+  "mode": "ask",
+  "execution": "local",
+  "network": "online (internet reachable)",
+  "run_at": "2026-09-29T13:29:47",
+  "model": {
+    "name": "gemma4:e2b-it-qat",
+    "family": "gemma4",
+    "parameter_size": "4.6B",
+    "quantization": "Q4_0",
+    "format": "gguf",
+    "digest": "07ea59a47401",
+    "runtime": "Ollama 0.34.4"
+  },
+  "embedding_model": {
+    "name": "nomic-embed-text",
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization": "F16",
+    "format": "gguf",
+    "digest": "",
+    "runtime": "Ollama 0.34.4"
+  },
+  "expected_behavior": "Lists the three parts of the rule, cites the Giverny 2002 letter, and ideally notes that the rule is empirical and meant to help investors stay rational.",
+  "expected_sources": [
+    "rochon-2002-giverny-letter"
+  ],
+  "expected_evidence": "raw/rochon-2002-giverny-letter.md › 'The Rule of Three' (PDF p. 15): one year in three the market falls more than 10%; one stock in three disappoints; one year in three the portfolio lags the indexes.",
+  "retrieval_check": {
+    "rochon-2002-giverny-letter": 1
+  },
+  "retrieved": [
+    {
+      "id": "rochon-2002-giverny-letter#2",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "The Rule of Three",
+      "pages": "PDF p. 15",
+      "text": "- Rochon's **Rule of Three** lists three market realities to accept in advance:\n  1. one year out of three, the stock market will fall by more than 10%;\n  2. one stock out of three that he buys will disappoint;\n  3. one year out of three, the portfolio will underperform the indexes.\n- He calls it an observed, not scientific, rule. Its value is psychological: accepting bad years and stock mistakes beforehand helps you act rationally when they happen.\n- The pattern is not regular. Bad years can bunch together. Sequoia Fund lagged the S&P 500 in its first four years (1970-73) before becoming a top performer. Keynes' Chest Fund lost more than the British market in its first three years, yet over 18 years earned about 9% a year versus about -1% for the market, while trailing in roughly one year out of three.\n- Because the sequence can't be predicted, the best strategy is to stay invested and keep improving stock selection. He calls corrections \"partners,\" since they create opportunities.",
+      "score": 0.0328,
+      "bm25": 9.036,
+      "cosine": 0.723
+    },
+    {
+      "id": "rochon-2002-giverny-letter#7",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "Mistakes of the year: \"Mistake du jour\"",
+      "pages": "PDF pp. 21-23",
+      "text": "- **Bronze — Heartland Express:** a low-cost trucker with a founder-CEO owning 40%, a modest salary and no options. He sold in 1999 when growth paused; the stock tripled. The error was impatience.\n- **Silver — Expedia:** he recommended it at $10 but hesitated to buy for all accounts, and waited in vain for the price to fall back. It later traded around $65. His lesson: discipline is following your rules; wisdom is knowing when to break them.\n- **Gold — Richelieu Hardware:** a high-return, fast-growing distributor recommended by his partner Bernard Mooney. He waited years, bought too little and wouldn't pay a bit more. The stock rose about fivefold in five years — even though the lock on his own front door was made by Richelieu.",
+      "score": 0.031,
+      "bm25": 3.334,
+      "cosine": 0.637
+    },
+    {
+      "id": "buffett-1987-letter#4",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "When to sell, and the three permanent holdings",
+      "pages": "PDF pp. 232-233",
+      "text": "- Berkshire sells when the market clearly overvalues a business, or when it needs money for something more undervalued or better understood. It does not sell just because a stock has risen or has been held a long time.\n- Three stocks — Capital Cities/ABC, GEICO and The Washington Post — are treated as permanent holdings, like wholly owned subsidiaries. He would not sell them even if they became overpriced (except, if absolutely necessary, to pay extraordinary insurance losses).\n- He prefers a wonderful business at a sensible price to a mediocre business at a bargain price. He jokes that it took him about 20 years to learn this, during which his \"bargains\" included a farm-equipment maker, a department store and a textile mill.",
+      "score": 0.0306,
+      "bm25": 5.018,
+      "cosine": 0.587
+    },
+    {
+      "id": "rochon-2002-giverny-letter#6",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "Owner's earnings as the scorecard",
+      "pages": "PDF pp. 20-21",
+      "text": "- Giverny measures itself by the growth in its companies' earnings and long-term prospects, not by short-term stock prices. This follows Buffett's look-through earnings idea.\n- In 2002 the portfolio's stock prices were roughly flat, but its owner's earnings rose about 18-20%, with an ROE of about 18%. Over about five years, prices tend to reflect earnings growth.\n- Gaps between price and business progress (Bed Bath & Beyond's EPS +40% with the stock +3%) are opportunities.",
+      "score": 0.0304,
+      "bm25": 2.448,
+      "cosine": 0.658
+    },
+    {
+      "id": "rochon-2002-giverny-letter#8",
+      "source_id": "rochon-2002-giverny-letter",
+      "kind": "source",
+      "path": "raw/rochon-2002-giverny-letter.md",
+      "title": "Giverny 2002 Annual Letter",
+      "section": "The gardener and the investor",
+      "pages": "PDF pp. 23-24",
+      "text": "- Echoing Munger's advice to use many mental models, Rochon compares investing to Monet's garden at Giverny. Know your soil and climate (some sectors he can't understand). Tend the garden continuously. Don't pull the flowers to water the weeds, as Peter Lynch warned — that is, don't sell winners to buy more losers.\n- Time and patience matter most. Great companies, like trees, take decades to grow. He likes long-tenured, founder-led companies such as Fastenal, Cognex, Bed Bath & Beyond and Costco.",
+      "score": 0.0302,
+      "bm25": 2.397,
+      "cosine": 0.673
+    },
+    {
+      "id": "buffett-1987-letter#5",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "Controlled companies vs. marketable stocks; capital allocation",
+      "pages": "PDF pp. 233-235",
+      "text": "- Owning a controlled company has two advantages: Berkshire gets to allocate its capital, and it has tax advantages at 80%+ ownership.\n- Many CEOs reach the top through marketing, production or administration and are not skilled at capital allocation. Yet after ten years, a CEO whose company retains 10% of net worth a year has deployed more than 60% of all its capital.\n- The stock market sometimes compensates by offering pieces of great businesses at far below negotiated-deal prices. Examples: Washington Post shares bought in 1973 and GEICO shares bought in 1976-80 at prices below their 1987 annual per-share earnings.\n- Accounting quirk: GAAP shows the market value of these minority stakes on the balance sheet, but only their small dividends in income. Buffett ignores GAAP and focuses on future earning power.",
+      "score": 0.0301,
+      "bm25": 3.254,
+      "cosine": 0.62
+    }
+  ],
+  "answer": "Giverny Capital's Rule of Three lists three market realities to accept in advance [S1]. These realities are: one year out of three, the stock market will fall by more than 10% [S1], one stock out of three that is purchased will disappoint [S1], and one year out of three, the portfolio will underperform the indexes [S1]. This rule is described as an observed, rather than scientific, rule, and its value is psychological, as accepting poor years and stock mistakes beforehand aids rational action when they occur [S1].",
+  "citation_check": {
+    "status": "answered",
+    "cited": [
+      1
+    ],
+    "invalid": [],
+    "uncited_sentences": []
+  },
+  "cited_sources": [
+    "rochon-2002-giverny-letter"
+  ],
+  "stats": {
+    "wall_seconds": 5.64,
+    "load_seconds": 0.04,
+    "prompt_tokens": 1664,
+    "prompt_seconds": 0.96,
+    "output_tokens": 118,
+    "output_seconds": 3.79,
+    "tokens_per_second": 31.1
+  },
+  "memory": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66
+    },
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37
+    }
+  ]
+}

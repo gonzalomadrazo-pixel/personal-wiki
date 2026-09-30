@@ -1,0 +1,191 @@
+{
+  "buffett-1987-letter": {
+    "source_id": "buffett-1987-letter",
+    "wiki_title": "Buffett 1987 Letter",
+    "raw_path": "raw/buffett-1987-letter.md",
+    "sha256": "2bdb0a3f1ac2024e950a5acfecd5993f3f16df3ce624f457c3c7d0ba955db7ef",
+    "meta": {
+      "source_id": "buffett-1987-letter",
+      "wiki_title": "Buffett 1987 Letter",
+      "author": "Warren Buffett",
+      "document": "Berkshire Hathaway 1987 letter to shareholders",
+      "date": "1988-02-29",
+      "original_file": "60f0773bd7a92410fed4ccbb_All-Berkshire-Hathaway-Letters.pdf",
+      "original_pages": "215-244",
+      "public_original": "https://www.berkshirehathaway.com/letters/1987.html",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Warren Buffett",
+    "extraction_path": "data/extractions/buffett-1987-letter.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:45:24"
+  },
+  "buffett-1993-letter": {
+    "source_id": "buffett-1993-letter",
+    "wiki_title": "Buffett 1993 Letter",
+    "raw_path": "raw/buffett-1993-letter.md",
+    "sha256": "e4ab48ab3933d03311eb84de7b8823d52c9b99c76fc333e07fa51d0be5d998ff",
+    "meta": {
+      "source_id": "buffett-1993-letter",
+      "wiki_title": "Buffett 1993 Letter",
+      "author": "Warren Buffett",
+      "document": "Berkshire Hathaway 1993 letter to shareholders",
+      "date": "1994-03-01",
+      "original_file": "60f0773bd7a92410fed4ccbb_All-Berkshire-Hathaway-Letters.pdf",
+      "original_pages": "390-416 (investing section pp. 403-409)",
+      "public_original": "https://www.berkshirehathaway.com/letters/1993.html",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Warren Buffett",
+    "extraction_path": "data/extractions/buffett-1993-letter.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:46:01"
+  },
+  "buffett-1996-letter": {
+    "source_id": "buffett-1996-letter",
+    "wiki_title": "Buffett 1996 Letter",
+    "raw_path": "raw/buffett-1996-letter.md",
+    "sha256": "7748bb4b63755103452d856384d471dcd1d1c5123910354251580c6b56b8da4b",
+    "meta": {
+      "source_id": "buffett-1996-letter",
+      "wiki_title": "Buffett 1996 Letter",
+      "author": "Warren Buffett",
+      "document": "Berkshire Hathaway 1996 letter to shareholders",
+      "date": "1997-02-28",
+      "original_file": "60f0773bd7a92410fed4ccbb_All-Berkshire-Hathaway-Letters.pdf",
+      "original_pages": "468-494 (investing section pp. 484-489)",
+      "public_original": "https://www.berkshirehathaway.com/letters/1996.html",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Warren Buffett",
+    "extraction_path": "data/extractions/buffett-1996-letter.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:46:55"
+  },
+  "marks-2001-cycles-memo": {
+    "source_id": "marks-2001-cycles-memo",
+    "wiki_title": "Marks 2001 Cycles Memo",
+    "raw_path": "raw/marks-2001-cycles-memo.md",
+    "sha256": "efc08493459546f414e5079f2c112b710053847b8760001ad7e7a23bf5eb3baa",
+    "meta": {
+      "source_id": "marks-2001-cycles-memo",
+      "wiki_title": "Marks 2001 Cycles Memo",
+      "author": "Howard Marks",
+      "document": "Oaktree memo \"You Can't Predict. You Can Prepare.",
+      "date": "2001-11-20",
+      "original_file": "the-complete-collection.pdf",
+      "original_pages": "135-145",
+      "public_original": "Oaktree Capital memos archive (oaktreecapital.com/insights)",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Howard Marks",
+    "extraction_path": "data/extractions/marks-2001-cycles-memo.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:47:43"
+  },
+  "marks-2003-most-important-thing": {
+    "source_id": "marks-2003-most-important-thing",
+    "wiki_title": "Marks 2003 Most Important Thing",
+    "raw_path": "raw/marks-2003-most-important-thing.md",
+    "sha256": "c2150c4bafd25ec6e292df9a043bf7c0e59da404daeade1d7b8ebfa8f5f40ed3",
+    "meta": {
+      "source_id": "marks-2003-most-important-thing",
+      "wiki_title": "Marks 2003 Most Important Thing",
+      "author": "Howard Marks",
+      "document": "Oaktree memo \"The Most Important Thing",
+      "date": "2003-07-01",
+      "original_file": "the-complete-collection.pdf",
+      "original_pages": "226-238",
+      "public_original": "Oaktree Capital memos archive (oaktreecapital.com/insights)",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Howard Marks",
+    "extraction_path": "data/extractions/marks-2003-most-important-thing.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:48:44"
+  },
+  "marks-2006-risk-memo": {
+    "source_id": "marks-2006-risk-memo",
+    "wiki_title": "Marks 2006 Risk Memo",
+    "raw_path": "raw/marks-2006-risk-memo.md",
+    "sha256": "9e7f12beb36c6ed0af5ef2763f6f06ee9c5664ec5b86619629dd4975fbd41c12",
+    "meta": {
+      "source_id": "marks-2006-risk-memo",
+      "wiki_title": "Marks 2006 Risk Memo",
+      "author": "Howard Marks",
+      "document": "Oaktree memo \"Risk",
+      "date": "2006-01-19",
+      "original_file": "the-complete-collection.pdf",
+      "original_pages": "334-345",
+      "public_original": "Oaktree Capital memos archive (oaktreecapital.com/insights)",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Howard Marks",
+    "extraction_path": "data/extractions/marks-2006-risk-memo.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:49:21"
+  },
+  "munger-2016-daily-journal": {
+    "source_id": "munger-2016-daily-journal",
+    "wiki_title": "Munger 2016 Daily Journal Meeting",
+    "raw_path": "raw/munger-2016-daily-journal.md",
+    "sha256": "90682cafdc86f404e6534288cfdb528c4fcf12712c16f7b7576eca1b7588f8d1",
+    "meta": {
+      "source_id": "munger-2016-daily-journal",
+      "wiki_title": "Munger 2016 Daily Journal Meeting",
+      "author": "Charlie Munger",
+      "document": "Transcript of the Daily Journal Corporation annual meeting, February 2016 (Q&A)",
+      "date": "2016-02",
+      "original_file": "Charlie-Munger-Letters.pdf",
+      "original_pages": "669-693",
+      "public_original": "transcript published by Latticework Investing (latticeworkinvesting.com), as printed in the PDF",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Charlie Munger",
+    "extraction_path": "data/extractions/munger-2016-daily-journal.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:50:20"
+  },
+  "rochon-2002-giverny-letter": {
+    "source_id": "rochon-2002-giverny-letter",
+    "wiki_title": "Giverny 2002 Annual Letter",
+    "raw_path": "raw/rochon-2002-giverny-letter.md",
+    "sha256": "49396d836dbf677f8454a6b8bfb625e87fd8f8d974236ee0057b06a349a5d70f",
+    "meta": {
+      "source_id": "rochon-2002-giverny-letter",
+      "wiki_title": "Giverny 2002 Annual Letter",
+      "author": "François Rochon",
+      "document": "Giverny Capital annual report / letter for 2002",
+      "date": "2003-01",
+      "original_file": "All-Giverny-Capitals-Annual-Letters-2001-2021.pdf",
+      "original_pages": "13-24",
+      "public_original": "Giverny Capital annual letters (givernycapital.com)",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Francois Rochon",
+    "extraction_path": "data/extractions/rochon-2002-giverny-letter.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:44:35"
+  },
+  "sleep-2006-nomad-letter": {
+    "source_id": "sleep-2006-nomad-letter",
+    "wiki_title": "Nomad 2006 Annual Letter",
+    "raw_path": "raw/sleep-2006-nomad-letter.md",
+    "sha256": "18c1367e8df170b1a6e3678d12c00c0c65b7f79a946dc876f43d0dad80bc26f2",
+    "meta": {
+      "source_id": "sleep-2006-nomad-letter",
+      "wiki_title": "Nomad 2006 Annual Letter",
+      "author": "Nick Sleep (with Qais Zakaria)",
+      "document": "Nomad Investment Partnership annual letter for the period ended December 31, 2006 (with appendices)",
+      "date": "2007-01",
+      "original_file": "nick-sleep-nomad-letters.pdf (identical copy: Full_Collection_Nomad_Letters_.pdf)",
+      "original_pages": "101-114",
+      "public_original": "privately circulated partnership letter; no official public URL",
+      "notes_by": "Gonzalo Madrazo (study notes in my own words; drafted with AI assistance)"
+    },
+    "person": "Nick Sleep",
+    "extraction_path": "data/extractions/sleep-2006-nomad-letter.json",
+    "model": "gemma4:e2b-it-qat",
+    "extracted_at": "2026-09-28T15:50:55"
+  }
+}

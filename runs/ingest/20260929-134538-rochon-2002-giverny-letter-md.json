@@ -1,0 +1,43 @@
+{
+  "mode": "ingest",
+  "execution": "local",
+  "saved_at": "2026-09-29T13:45:38",
+  "started": "2026-09-29T13:44:41",
+  "model": "gemma4:e2b-it-qat",
+  "target": "vault/raw/rochon-2002-giverny-letter.md",
+  "sources": [
+    {
+      "source_id": "rochon-2002-giverny-letter",
+      "status": "re-extracted candidate (reviewed kept)",
+      "stats": {
+        "wall_seconds": 57.04,
+        "load_seconds": 12.07,
+        "prompt_tokens": 2399,
+        "prompt_seconds": 8.44,
+        "output_tokens": 610,
+        "output_seconds": 25.57,
+        "tokens_per_second": 23.9,
+        "followups": 2
+      },
+      "flagged": 1
+    }
+  ],
+  "pages_written": 36,
+  "pages_removed": [],
+  "seconds": 57.1,
+  "index": {
+    "passages": 179,
+    "source_passages": 60,
+    "wiki_passages": 119,
+    "embedded": 179,
+    "newly_embedded": 0
+  },
+  "memory": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66,
+      "context": 8192
+    }
+  ]
+}

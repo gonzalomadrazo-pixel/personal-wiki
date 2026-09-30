@@ -1,0 +1,65 @@
+{
+  "summary": "This study note outlines Howard Marks' core investment principles, emphasizing the importance of price and value, defensive investing, and avoiding reliance on macro forecasts. Marks advocates for rigorous intrinsic value estimation, patience, and operating within inefficient markets.",
+  "key_points": [
+    {
+      "point": "The relationship between price and value comes first: no asset is so good it can't be a bad investment at too high a price, and few are so bad they can't be good investments when cheap enough.",
+      "section": "Price and value come first"
+    },
+    {
+      "point": "Intelligent investing requires building a firm estimate of intrinsic value based on all available information and holding that estimate with conviction.",
+      "section": "A firmly held estimate of intrinsic value"
+    },
+    {
+      "point": "Defensive investing involves seeking solid value at a bargain price, diversifying rather than concentrating, and avoiding reliance on macro forecasts or market timing.",
+      "section": "Invest defensively and avoid bad years"
+    },
+    {
+      "point": "Contrarian behavior is reliable because only unpopular assets can be truly cheap, and patience involves waiting for sellers rather than chasing buy lists.",
+      "section": "The limits of macro forecasting; cycles; contrarianism"
+    },
+    {
+      "point": "Active fees rarely yield significant returns in mainstream markets, suggesting real mispricings and potential for high returns exist in inefficient markets.",
+      "section": "Market efficiency, leverage and luck"
+    },
+    {
+      "point": "Oaktree keeps staff turnover low by hiring team players, keeping a collegial culture and sharing ownership, and it values consistent, principled answers over any single answer.",
+      "section": "Communication, people and principles"
+    }
+  ],
+  "concepts": [
+    {
+      "name": "Price and Value",
+      "what_the_source_says": "Marks says the relationship between price and value comes first: a good company is not the same as a good investment, and the biggest losses come from buying 'perfect' companies at prices that assume perfection."
+    },
+    {
+      "name": "Margin of Safety",
+      "what_the_source_says": "Marks cites Buffett's margin of safety as an ingredient in defensive investing, advising investors to pay prices low enough to ensure they can profit or at least not lose, even if circumstances change."
+    },
+    {
+      "name": "Limits of Forecasting",
+      "what_the_source_says": "Marks advises investors to avoid relying on macro forecasts, as cycles are inevitable and extrapolating trends is dangerous, favoring a defensive approach."
+    },
+    {
+      "name": "Contrarian Investing",
+      "what_the_source_says": "Contrarian behavior is considered the most reliable approach because it suggests that only unpopular assets can be genuinely cheap."
+    },
+    {
+      "name": "Risk vs Volatility",
+      "what_the_source_says": "Marks frames risk control as avoiding losers and bad years ('invest scared'), aiming over time for above-market returns with below-market volatility."
+    },
+    {
+      "name": "Leverage",
+      "what_the_source_says": "Marks advises caution regarding leverage because it increases potential returns while simultaneously increasing risk and eliminating the margin of safety. He suggests that while exploiting unusually generous opportunities is acceptable, leverage is dangerous when trying to squeeze significant returns from small margins."
+    },
+    {
+      "name": "Market Cycles",
+      "what_the_source_says": "Howard Marks argues that market cycles are inevitable because prices often move more than underlying fundamentals, making the extrapolation of trends a dangerous practice for investors."
+    }
+  ],
+  "source_id": "marks-2003-most-important-thing",
+  "model": "gemma4:e2b-it-qat",
+  "reviewed": true,
+  "extracted_at": "2026-09-28T15:48:44",
+  "reviewed_by": "Claude (AI assistant) checked every statement against the note on 2026-09-29; Gonzalo to confirm",
+  "review_corrections": 5
+}

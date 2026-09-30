@@ -1,0 +1,150 @@
+{
+  "id": "test2-paraphrased",
+  "kind": "answerable, phrased differently from the source",
+  "question": "Does taking on riskier investments guarantee a bigger payoff, according to Howard Marks?",
+  "mode": "ask",
+  "execution": "local",
+  "network": "online (internet reachable)",
+  "run_at": "2026-09-29T13:29:51",
+  "model": {
+    "name": "gemma4:e2b-it-qat",
+    "family": "gemma4",
+    "parameter_size": "4.6B",
+    "quantization": "Q4_0",
+    "format": "gguf",
+    "digest": "07ea59a47401",
+    "runtime": "Ollama 0.34.4"
+  },
+  "embedding_model": {
+    "name": "nomic-embed-text",
+    "family": "nomic-bert",
+    "parameter_size": "137M",
+    "quantization": "F16",
+    "format": "gguf",
+    "digest": "",
+    "runtime": "Ollama 0.34.4"
+  },
+  "expected_behavior": "Says no: riskier assets must offer higher expected or promised returns to attract capital, but those returns aren't guaranteed, and the range of outcomes (including loss) widens as risk rises. Cites the Marks 2006 risk memo.",
+  "expected_sources": [
+    "marks-2006-risk-memo"
+  ],
+  "expected_evidence": "raw/marks-2006-risk-memo.md › 'Why risk matters, and the misread risk-return line' (PDF pp. 334-336). The source says 'higher returns', 'expected' and 'promised'; the question says 'guarantee' and 'bigger payoff'.",
+  "retrieval_check": {
+    "marks-2006-risk-memo": 1
+  },
+  "retrieved": [
+    {
+      "id": "marks-2006-risk-memo#1",
+      "source_id": "marks-2006-risk-memo",
+      "kind": "source",
+      "path": "raw/marks-2006-risk-memo.md",
+      "title": "Marks 2006 Risk Memo",
+      "section": "Why risk matters, and the misread risk-return line",
+      "pages": "PDF pp. 334-336",
+      "text": "- Capital-market theory: because people dislike risk, riskier investments must offer higher returns to attract money. Returns should be judged relative to the risk taken (risk-adjusted returns).\n- The usual chart shows a line rising from low risk/low return to high risk/high return. Marks objects to the popular reading, \"take more risk to make more money.\" If riskier investments reliably produced higher returns, they would not be riskier.\n- The correct version: riskier investments must offer higher *expected* or *promised* returns, but nothing guarantees those returns will arrive.\n- His redrawn chart shows, at each risk level, a range of possible outcomes that widens as risk rises. Higher risk brings a higher expected return, a chance of lower returns, and sometimes a chance of loss.",
+      "score": 0.0328,
+      "bm25": 12.765,
+      "cosine": 0.763
+    },
+    {
+      "id": "marks-2003-most-important-thing#4",
+      "source_id": "marks-2003-most-important-thing",
+      "kind": "source",
+      "path": "raw/marks-2003-most-important-thing.md",
+      "title": "Marks 2003 Most Important Thing",
+      "section": "The limits of macro forecasting; cycles; contrarianism",
+      "pages": "PDF pp. 229-231",
+      "text": "- Every investor must decide whether they belong to the \"I know\" school or the \"I don't know\" school. If you believe you can see the future, you concentrate and time the market. If not, you invest defensively and diversify. Marks is firmly in the second camp: survival comes first.\n- Cycles are inevitable. Prices swing more than fundamentals, and extrapolating trends is one of the most dangerous things an investor can do.\n- Contrarian behaviour works most reliably: only unpopular assets can be truly cheap. Distressed debt profits partly because no one loves a distressed company.\n- Patient opportunism: Oaktree waits for sellers to call rather than chasing a buy list (\"our investments find us\"), and invests bottom-up.",
+      "score": 0.0302,
+      "bm25": 2.826,
+      "cosine": 0.719
+    },
+    {
+      "id": "marks-2003-most-important-thing#5",
+      "source_id": "marks-2003-most-important-thing",
+      "kind": "source",
+      "path": "raw/marks-2003-most-important-thing.md",
+      "title": "Marks 2003 Most Important Thing",
+      "section": "Running an investment firm",
+      "pages": "PDF pp. 231-233",
+      "text": "- Say what you will do, and then do it. Stay inside the client's mandate.\n- Keep flexibility on tactics while being specific about philosophy, goals and style.\n- Refuse to manage too much money. Good performance brings more assets, and too many assets eventually hurt performance. Oaktree has capped its strategies and turned money away for twenty years.",
+      "score": 0.0301,
+      "bm25": 3.077,
+      "cosine": 0.689
+    },
+    {
+      "id": "marks-2003-most-important-thing#1",
+      "source_id": "marks-2003-most-important-thing",
+      "kind": "source",
+      "path": "raw/marks-2003-most-important-thing.md",
+      "title": "Marks 2003 Most Important Thing",
+      "section": "Price and value come first",
+      "pages": "PDF pp. 226-227",
+      "text": "- Above all, the relationship between price and value matters. No asset is so good it can't be a bad investment at too high a price, and few are so bad they can't be good investments if cheap enough.\n- No asset class has a birthright to high returns. You'd ask the price before buying someone's car, so buying an investment without judging its price is just as silly. Examples: tech stocks in the late 1990s (bought at any price) and junk bonds in the 1970s-80s (avoided at any price).\n- The biggest losses he has seen came from buying \"perfect\" companies at prices that assumed perfection. A good company is not the same as a good investment.\n- He wants the best *buys*, not the best companies.",
+      "score": 0.0295,
+      "bm25": 3.744,
+      "cosine": 0.652
+    },
+    {
+      "id": "marks-2006-risk-memo#7",
+      "source_id": "marks-2006-risk-memo",
+      "kind": "source",
+      "path": "raw/marks-2006-risk-memo.md",
+      "title": "Marks 2006 Risk Memo",
+      "section": "Bearing risk intelligently for profit",
+      "pages": "PDF pp. 343-345",
+      "text": "- Keynes: a speculator knowingly runs risks; an investor runs risks without knowing it. Unknowingly bearing risk in popular, \"can't-lose\" assets is the big mistake. Knowingly accepting recognised risk at the right price is behind many of the best investments.\n- Life-insurance analogy (his answer to a reporter about junk bonds): insurers know everyone will die, yet they are conservative businesses. The risk is known, can be analysed, can be diversified and is well paid for. Oaktree tries to do the same with high-yield bonds.\n- Risky assets can be good investments if they are cheap enough; the skill is knowing when.\n- Risk control is not risk avoidance. Avoiding all risk also means avoiding returns above the risk-free rate. The aim is \"risk intelligence\": understanding, managing and being paid for the risks you take.",
+      "score": 0.0292,
+      "bm25": 2.896,
+      "cosine": 0.679
+    },
+    {
+      "id": "buffett-1993-letter#2",
+      "source_id": "buffett-1993-letter",
+      "kind": "source",
+      "path": "raw/buffett-1993-letter.md",
+      "title": "Buffett 1993 Letter",
+      "section": "Concentration instead of diversification",
+      "pages": "PDF p. 405",
+      "text": "- Buffett and Munger decided long ago that it is too hard to make hundreds of smart decisions in a lifetime. Their strategy requires being smart only a few times; he says they will now settle for one good idea a year.\n- Many experts would call this concentrated strategy riskier. Buffett disagrees. Concentration can *reduce* risk if it makes the investor think harder about a business and demand more comfort with its economics before buying.\n- He defines risk using the dictionary: the possibility of loss or injury.",
+      "score": 0.0289,
+      "bm25": 3.583,
+      "cosine": 0.648
+    }
+  ],
+  "answer": "No, taking on riskier investments does not guarantee a bigger payoff according to Howard Marks. Marks states that riskier investments must offer higher *expected* or *promised* returns, but nothing guarantees those returns will materialize [S1]. He also notes that higher risk brings a higher expected return, a chance of lower returns, and sometimes a chance of loss [S1]. The correct view is that riskier investments must offer higher expected or promised returns, but the passage does not state that these returns are guaranteed [S1].",
+  "citation_check": {
+    "status": "answered",
+    "cited": [
+      1
+    ],
+    "invalid": [],
+    "uncited_sentences": [
+      "No, taking on riskier investments does not guarantee a bigger payoff according to Howard Marks."
+    ]
+  },
+  "cited_sources": [
+    "marks-2006-risk-memo"
+  ],
+  "stats": {
+    "wall_seconds": 3.62,
+    "load_seconds": 0.0,
+    "prompt_tokens": 1529,
+    "prompt_seconds": 0.09,
+    "output_tokens": 107,
+    "output_seconds": 3.38,
+    "tokens_per_second": 31.6
+  },
+  "memory": [
+    {
+      "model": "gemma4:e2b-it-qat",
+      "size_gb": 1.66,
+      "gpu_gb": 1.66
+    },
+    {
+      "model": "nomic-embed-text:latest",
+      "size_gb": 0.37,
+      "gpu_gb": 0.37
+    }
+  ]
+}

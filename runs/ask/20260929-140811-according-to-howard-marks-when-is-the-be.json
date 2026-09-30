@@ -1,0 +1,109 @@
+{
+  "mode": "ask",
+  "execution": "local",
+  "saved_at": "2026-09-29T14:08:11",
+  "question": "According to Howard Marks, when is the best time to buy stocks?",
+  "model": "gemma4:e2b-it-qat",
+  "chat_history_used": false,
+  "instructions": "prompts/wiki-instructions.md",
+  "retrieved": [
+    {
+      "id": "marks-2003-most-important-thing#1",
+      "source_id": "marks-2003-most-important-thing",
+      "kind": "source",
+      "path": "raw/marks-2003-most-important-thing.md",
+      "title": "Marks 2003 Most Important Thing",
+      "section": "Price and value come first",
+      "pages": "PDF pp. 226-227",
+      "text": "- Above all, the relationship between price and value matters. No asset is so good it can't be a bad investment at too high a price, and few are so bad they can't be good investments if cheap enough.\n- No asset class has a birthright to high returns. You'd ask the price before buying someone's car, so buying an investment without judging its price is just as silly. Examples: tech stocks in the late 1990s (bought at any price) and junk bonds in the 1970s-80s (avoided at any price).\n- The biggest losses he has seen came from buying \"perfect\" companies at prices that assumed perfection. A good company is not the same as a good investment.\n- He wants the best *buys*, not the best companies.",
+      "score": 0.0323,
+      "bm25": 7.465,
+      "cosine": 0.702
+    },
+    {
+      "id": "buffett-1987-letter#2",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "Buying stocks as if buying a private business",
+      "pages": "PDF p. 230",
+      "text": "- When Berkshire buys common stocks, it evaluates them as if buying part of a private business: the economic prospects, the people running it, and the price.\n- It has no planned sale time or price. It will hold as long as intrinsic value keeps growing at a satisfactory rate.\n- Buffett calls himself a business analyst — not a market analyst, a macroeconomic analyst or a security analyst.\n- An active market is useful because it sometimes offers great prices, but it is not necessary. A long suspension of trading would not bother him.",
+      "score": 0.0315,
+      "bm25": 6.458,
+      "cosine": 0.701
+    },
+    {
+      "id": "marks-2003-most-important-thing#4",
+      "source_id": "marks-2003-most-important-thing",
+      "kind": "source",
+      "path": "raw/marks-2003-most-important-thing.md",
+      "title": "Marks 2003 Most Important Thing",
+      "section": "The limits of macro forecasting; cycles; contrarianism",
+      "pages": "PDF pp. 229-231",
+      "text": "- Every investor must decide whether they belong to the \"I know\" school or the \"I don't know\" school. If you believe you can see the future, you concentrate and time the market. If not, you invest defensively and diversify. Marks is firmly in the second camp: survival comes first.\n- Cycles are inevitable. Prices swing more than fundamentals, and extrapolating trends is one of the most dangerous things an investor can do.\n- Contrarian behaviour works most reliably: only unpopular assets can be truly cheap. Distressed debt profits partly because no one loves a distressed company.\n- Patient opportunism: Oaktree waits for sellers to call rather than chasing a buy list (\"our investments find us\"), and invests bottom-up.",
+      "score": 0.0313,
+      "bm25": 4.961,
+      "cosine": 0.731
+    },
+    {
+      "id": "buffett-1987-letter#6",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "Other securities, portfolio insurance and the 1987 crash",
+      "pages": "PDF pp. 235-237",
+      "text": "- Berkshire's insurance float can go into five categories: long-term stocks, medium-term bonds, long-term bonds, cash equivalents and arbitrage. It picks whichever offers the best after-tax \"mathematical expectation,\" but only among things it understands.\n- He blames 1987's volatility on big money managers who focused on what other managers would do next, rather than on the businesses.\n- He criticises \"portfolio insurance,\" which mechanically sells more as prices fall — like selling pieces of a farm whenever a neighbour's land sells cheaper.\n- His conclusion: volatile markets are good for real investors, small or large. Volatility can only hurt an investor who is forced, financially or psychologically, to sell at bad times.\n- Berkshire found little to buy in stocks in 1987 but expected Mr. Market to offer chances later.",
+      "score": 0.0308,
+      "bm25": 7.301,
+      "cosine": 0.684
+    },
+    {
+      "id": "buffett-1987-letter#4",
+      "source_id": "buffett-1987-letter",
+      "kind": "source",
+      "path": "raw/buffett-1987-letter.md",
+      "title": "Buffett 1987 Letter",
+      "section": "When to sell, and the three permanent holdings",
+      "pages": "PDF pp. 232-233",
+      "text": "- Berkshire sells when the market clearly overvalues a business, or when it needs money for something more undervalued or better understood. It does not sell just because a stock has risen or has been held a long time.\n- Three stocks — Capital Cities/ABC, GEICO and The Washington Post — are treated as permanent holdings, like wholly owned subsidiaries. He would not sell them even if they became overpriced (except, if absolutely necessary, to pay extraordinary insurance losses).\n- He prefers a wonderful business at a sensible price to a mediocre business at a bargain price. He jokes that it took him about 20 years to learn this, during which his \"bargains\" included a farm-equipment maker, a department store and a textile mill.",
+      "score": 0.03,
+      "bm25": 3.933,
+      "cosine": 0.704
+    },
+    {
+      "id": "buffett-1996-letter#4",
+      "source_id": "buffett-1996-letter",
+      "kind": "source",
+      "path": "raw/buffett-1996-letter.md",
+      "title": "Buffett 1996 Letter",
+      "section": "Advice for individual investors; circle of competence",
+      "pages": "PDF pp. 487-488",
+      "text": "- Most investors, institutional or individual, will do best in a low-cost index fund. It will beat the net results of most professionals.\n- For those who pick stocks: intelligent investing is not complex, but it is not easy. You must correctly evaluate *selected* businesses — only those inside your **circle of competence**. The size of the circle matters little; knowing where it ends matters a lot.\n- You don't need beta, efficient-market theory, modern portfolio theory, option pricing or emerging markets. Buffett says an investing student needs just two good courses: how to value a business, and how to think about market prices.\n- The goal: buy, at a rational price, part of an easy-to-understand business whose earnings will almost certainly be materially higher in 5, 10 and 20 years. Such companies are rare, so buy a meaningful amount when you find one.\n- Stick to the rules. If you would not own a stock for ten years, don't own it for ten minutes. If a portfolio's combined earnings rise over the years, its market value will too — which is how Berkshire's look-through earnings and share price grew together.",
+      "score": 0.0299,
+      "bm25": 5.885,
+      "cosine": 0.673
+    }
+  ],
+  "answer": "Howard Marks emphasizes the relationship between price and value when considering investments [S1]. He suggests that the best buys are sought, rather than the best companies [S1]. Contrarian behavior is considered reliable, as only unpopular assets can be truly cheap [S3]. Patient opportunism involves waiting for sellers to initiate a call rather than chasing a buy list [S3].",
+  "citation_check": {
+    "status": "answered",
+    "cited": [
+      1,
+      3
+    ],
+    "invalid": [],
+    "uncited_sentences": []
+  },
+  "stats": {
+    "wall_seconds": 8.47,
+    "load_seconds": 0.01,
+    "prompt_tokens": 1699,
+    "prompt_seconds": 4.9,
+    "output_tokens": 75,
+    "output_seconds": 2.5,
+    "tokens_per_second": 30.0
+  },
+  "prompt_chars": 7027
+}
